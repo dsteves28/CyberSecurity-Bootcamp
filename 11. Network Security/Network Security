@@ -27,15 +27,7 @@ The concept of defense in depth can be broken down into three different security
 2. What's the difference between an Indicator of Attack and an Indicator of Compromise?
 
    Answer: Indicators of attack indicate attacks happening in real time. Indicators of compromise indicate previous malicious activity.
-
-
-
-
-
-
-
-
-
+   
 
 #### The Cyber Kill Chain
 
