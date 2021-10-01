@@ -1,7 +1,7 @@
 ![1](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/07.%20Windows%20Administration%20and%20Hardening/1.PNG)
 ![2](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/07.%20Windows%20Administration%20and%20Hardening/2.PNG)
 ![3.2](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/07.%20Windows%20Administration%20and%20Hardening/3.2.PNG)
-![3.3]](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/07.%20Windows%20Administration%20and%20Hardening/3.3.PNG)
+![3.3](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/07.%20Windows%20Administration%20and%20Hardening/3.3.PNG)
 ![3.4](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/07.%20Windows%20Administration%20and%20Hardening/3.4.PNG)
 ![3.5](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/07.%20Windows%20Administration%20and%20Hardening/3.5.PNG)
 ![4](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/07.%20Windows%20Administration%20and%20Hardening/4.PNG)
