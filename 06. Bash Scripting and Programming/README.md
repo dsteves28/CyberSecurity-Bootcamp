@@ -33,7 +33,7 @@
 
 1. Edit the `sshd_config` file:
 
-    ! [sshd_config](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/06.%20Bash%20Scripting%20and%20Programming/sshd_config.png)
+    ![sshd_config](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/06.%20Bash%20Scripting%20and%20Programming/sshd_config.png)
     
 
 
