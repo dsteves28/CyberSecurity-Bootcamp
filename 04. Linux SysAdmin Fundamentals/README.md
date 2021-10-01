@@ -69,3 +69,14 @@
 3. Command to run an audit: sudo lynis audit system
 
 4. Provide a report from the Lynis output on what can be done to harden the system.
+
+Report output:
+
+### Chrootkit
+1. Command to install chkrootkit: sudo apt install chkrootkit
+
+2. Command to see documentation and instructions: man chkrootkit
+
+3. Command to run expert mode: sudo chkrootkit -x
+
+4. Provide a report from the chrootkit output on what can be done to harden the system.
