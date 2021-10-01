@@ -39,27 +39,27 @@
 
 **Step 3: Testing The Configuration Update**
 1. Restart the SSH service:
-    - sudo systemctl restart ssh
+    - `sudo systemctl restart ssh`
 
 2. Exit the `root` account:
-    - exit
+    - `exit`
 
 3. SSH to the target machine using your `sysd` account and port `2222`:
-    - ssh sysd@192.168.6.105 -p 2222
+    - `ssh sysd@192.168.6.105 -p 2222`
 
 4. Use `sudo` to switch to the root user:
-    - sudo su root
+    - `sudo su root`
 
 **Step 4: Crack All the Passwords**
 
 1. SSH back to the system using your `sysd` account and port `2222`:
 
-    - ssh sysd@192.168.6.105 -p 2222
+    - `ssh sysd@192.168.6.105 -p 2222`
 
 2. Escalate your privileges to the `root` user. Use John to crack the entire `/etc/shadow` file:
 
-    - sudo su root
-    - john /etc/shadow
+    - `sudo su root`
+    - `john /etc/shadow`
 
     • sysadmin:passw0rd:18387:0:99999:7:::
     • student:Goodluck!:18387:0:99999:7:::
