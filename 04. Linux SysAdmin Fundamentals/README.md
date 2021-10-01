@@ -72,6 +72,7 @@
 
 Report output:
 
+![LinuxAdministration](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/04.%20Linux%20SysAdmin%20Fundamentals/Linux%20Administration.png)
 
 ### Chrootkit
 1. Command to install chkrootkit:  ` sudo apt install chkrootkit `
@@ -80,4 +81,6 @@ Report output:
 
 3. Command to run expert mode:  ` sudo chkrootkit -x `
 
-4. Report of chrootkit output on what can be done to harden the system.
+4. Report of chrootkit output on what can be done to harden the system:
+
+![ChangerootOutput](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/04.%20Linux%20SysAdmin%20Fundamentals/Chrookit%20Output.png)
