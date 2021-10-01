@@ -12,7 +12,7 @@
 
 
     • Level 2: Data
-    • Port 22 is the default port and should be closed..
+    • Port 22 is the default port and should be closed.
 
 ### Step 3
 
