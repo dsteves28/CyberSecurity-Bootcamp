@@ -80,4 +80,4 @@ Report output:
 
 3. Command to run expert mode:  ` sudo chkrootkit -x `
 
-4. Provide a report from the chrootkit output on what can be done to harden the system.
+4. Report of chrootkit output on what can be done to harden the system.
