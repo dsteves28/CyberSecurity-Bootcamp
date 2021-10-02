@@ -32,13 +32,14 @@ Mission 5
 
 
 
-Battu - D - C - E - F - J - I - L - Q  - T - V - Jedha
+    • Battu - D - C - E - F - J - I - L - Q  - T - V - Jedha
 
 Mission 6
 
 
 
-MAC: 00:0f:66:e3:e4:01 - IP: 172.16.0.1           MAC: 00:13:ce:55:98:ef - IP: 172.16.0.101
+    • MAC: 00:0f:66:e3:e4:01 - IP: 172.16.0.1           
+    • MAC: 00:13:ce:55:98:ef - IP: 172.16.0.101
 
 Mission 7
 
