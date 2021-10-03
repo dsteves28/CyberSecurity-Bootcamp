@@ -11,6 +11,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
 
   ## Filebeat.yml
+  ```
   ---
 - name: Installing and Launch Filebeat
   hosts: webservers
@@ -47,7 +48,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
     systemd:
       name: filebeat
       enabled: yes
-  ---
+  ```
 
 This document contains the following details:
 - Description of the Topologu
