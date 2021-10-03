@@ -92,6 +92,38 @@ These files have been tested and used to generate a live ELK deployment on Azure
       name: filebeat
       enabled: yes
   ```
+## Metricbeat.yml
+```
+---
+- name: Install metric beat
+  hosts: webservers
+  become: true
+  tasks:
+  - name: Download metricbeat
+    command: curl -L -O https://artifacts.elastic.co/downloads/beats/metricbeat/metricbeat-7.4.0-amd64.deb
+
+  - name: install metricbeat
+    command: dpkg -i metricbeat-7.4.0-amd64.deb
+
+  - name: drop in metricbeat config
+    copy:
+      src: /etc/ansible/files/metricbeat-config.yml
+      dest: /etc/metricbeat/metricbeat.yml
+
+  - name: enable and configure docker module for metric beat
+    command: metricbeat modules enable docker
+
+  - name: setup metric beat
+    command: metricbeat setup
+
+  - name: start metric beat
+    command: service metricbeat start
+
+  - name: Enable service metricbeat on boot
+    systemd:
+      name: metricbeat
+      enabled: yes
+```
 
 This document contains the following details:
 - Description of the Topologu
@@ -106,12 +138,14 @@ This document contains the following details:
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
-Load balancing ensures that the application will be highly _____, in addition to restricting _____ to the network.
-- _TODO: What aspect of security do load balancers protect? What is the advantage of a jump box?_
+Load balancing ensures that the application will be highly *efficient*, in addition to restricting *traffic* to the network.
+- *As websites receive more traffic, more servers can be added to the group (“pool”) of servers that the load balancer has access to.
+This helps distribute traffic evenly across the servers and mitigates DoS attacks.
+- *The jump server acts as a single audit point for traffic and also a single place where user accounts can be managed. 
 
-Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the _____ and system _____.
-- _TODO: What does Filebeat watch for?_
-- _TODO: What does Metricbeat record?_
+Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the _____ and system *data*.
+- _TODO: What does Filebeat watch for?_Filebeat monitors the log files or locations that you specify, collects log events, and forwards them either to Elasticsearch or Logstash for indexing.
+- _TODO: What does Metricbeat record?_Metricbeat collects metrics from the operating system and from services running on the server. Metricbeat takes the metrics and statistics that it collects and ships them to the output that you specify, such as Elasticsearch or Logstash.
 
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
@@ -119,9 +153,9 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 | Name     | Function | IP Address | Operating System |
 |----------|----------|------------|------------------|
 | Jump Box | Gateway  | 10.0.0.1   | Linux            |
-| TODO     |          |            |                  |
-| TODO     |          |            |                  |
-| TODO     |          |            |                  |
+| Web 1    |          |            |                  |
+| Web 2    |          |            |                  |
+| ELK Server|          |            |                  |
 
 ### Access Policies
 
