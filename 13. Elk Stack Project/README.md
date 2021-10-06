@@ -97,7 +97,7 @@ _TODO: Answer the following questions to fill in the blanks:_
 
 
   ## ELK.yml
-  ```
+```
   ---
 - name: Config elk VM with Docker
   hosts: elk
@@ -149,7 +149,7 @@ _TODO: Answer the following questions to fill in the blanks:_
 ```
 
   ## Filebeat.yml
-  ```
+```
   ---
 - name: Installing and Launch Filebeat
   hosts: webservers
