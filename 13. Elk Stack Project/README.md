@@ -52,8 +52,8 @@ A summary of the access policies in place can be found in the table below.
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
 | Jump Box | Yes                 | 69.180.139.64        |
-| Web 1    | No                  | 10.0.0.4             |
-| Web 2    | No                  | 10.0.0.4             |
+| Web 1    | No                  | 10.0.0.5             |
+| Web 2    | No                  | 10.0.0.6             |
 
 ### Elk Configuration
 
@@ -90,10 +90,10 @@ SSH into the control node and follow the steps below:
 - Update the config file to include Web 1 and Web 2.
 - Run the playbook, and navigate to ansible container to check that the installation worked as expected.
 
-_TODO: Answer the following questions to fill in the blanks:_
-- _Which file is the playbook? Where do you copy it? .yml & Copy this onto the Elk server
-- _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on? Ansible config.yml and the machine Filebeat is installed on is specified in the Ansible config.yml
-- _Which URL do you navigate to in order to check that the ELK server is running? http://40.83.184.101:5601/app/kibana#/home
+_TODO: Answer the following questions to fill in the blanks:
+- Which file is the playbook? Where do you copy it? .yml & Copy this onto the Elk server
+- Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on? Ansible config.yml and the machine Filebeat is installed on is specified in the Ansible config.yml
+- URL to navigate to in order to check that the ELK server is running. http://40.83.184.101:5601/app/kibana#/home
 
 
   ## ELK.yml
