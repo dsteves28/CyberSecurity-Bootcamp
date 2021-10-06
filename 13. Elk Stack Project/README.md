@@ -147,9 +147,9 @@ Answer the following questions to fill in the blanks:
       name: docker
       enabled: yes
 ```
-  ## Fulebeat_config.yml
+  ## Filebeat_config.yml
 
-
+[Filebeat_config.yml](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/13.%20Elk%20Stack%20Project/Filebeat_config.yml)
 
   ## Filebeat.yml
 ```
@@ -188,7 +188,7 @@ Answer the following questions to fill in the blanks:
 
 ## Metricbeat_config.yml
 
-
+[Metricbeat_config.yml](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/13.%20Elk%20Stack%20Project/Metricbeat_config.yml)
 
 ## Metricbeat.yml
 ```
