@@ -96,8 +96,6 @@ Answer the following questions to fill in the blanks:
 - URL to navigate to in order to check that the ELK server is running. http:// (ELK Server Public IP) :5601/app/kibana#/home 
   - My server is http://40.83.184.101:5601/app/kibana#/home
 
-![dogfail](<iframe src="https://giphy.com/embed/ftYe15cOmuVqw" width="480" height="366" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/fail-dog-ftYe15cOmuVqw">via GIPHY</a></p>)
-
   ## ELK.yml
 ```
   ---
