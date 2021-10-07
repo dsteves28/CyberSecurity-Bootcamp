@@ -96,6 +96,8 @@ Answer the following questions to fill in the blanks:
 - URL to navigate to in order to check that the ELK server is running. http:// (ELK Server Public IP) :5601/app/kibana#/home 
   - My server is http://40.83.184.101:5601/app/kibana#/home
 
+![dogfail](https://giphy.com/gifs/fail-dog-ftYe15cOmuVqw)
+
   ## ELK.yml
 ```
   ---
