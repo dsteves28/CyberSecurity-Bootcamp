@@ -69,7 +69,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![dockerps](https://i.imgur.com/W1pogtE.gif)
+![dockerps](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/13.%20Elk%20Stack%20Project/dockerps.PNG)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -96,7 +96,7 @@ Answer the following questions to fill in the blanks:
 - URL to navigate to in order to check that the ELK server is running. http:// (ELK Server Public IP) :5601/app/kibana#/home 
   - My server is http://40.83.184.101:5601/app/kibana#/home
 
-![dogfail](https://giphy.com/gifs/fail-dog-ftYe15cOmuVqw)
+![bird](https://i.imgur.com/W1pogtE.gif)
 
   ## ELK.yml
 ```
