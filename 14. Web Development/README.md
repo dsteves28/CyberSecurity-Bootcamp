@@ -265,3 +265,4 @@ Now that we know how to use the `curl` cookie jar, let's look at what we need to
 
 ### Bonus Challenge
 
+![dog](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/14.%20Web%20Development/giphy.gif)
