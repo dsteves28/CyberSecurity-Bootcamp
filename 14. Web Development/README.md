@@ -127,7 +127,6 @@ X-Content-Type: NoSniff
 X-Frame-Options: DENY
 X-XSS-Protection: 1; mode=block
 
-[page content]
 ```
 
 21. What is the response status code?
@@ -264,105 +263,5 @@ Now that we know how to use the `curl` cookie jar, let's look at what we need to
 
 ---
 
-### Bonus Challenge Instructions: The Cookie Jar
+### Bonus Challenge
 
-First, using Docker Compose, navigate to the Day 1 WordPress activity directory and bring up the container set:
-
-- `/home/sysadmin/Documents/docker_files`
-
-Using `curl`, you will do the following for the Ryan user:
-
-  - Log into WordPress and save the user's cookies to a cookie jar.
-
-  - Test a WordPress page by using a cookie from the cookie jar.
-
-  - Pipe the output from the cookie with `grep` to check for authenticated page access.
-
-  - Attempt to access a privileged WordPress admin page.
-
-#### Step 1: Set Up
-
-Create two new users: Amanda and Ryan.   
-
-1. Navigate to `localhost:8080/wp-admin/`
-
-2. On the left-hand toolbar, hover over **Users** and click **Add New**.
-
-3. Enter the following information to create the new user named Amanda.
-
-    - Username: `Amanda`
-    - Email: `amanda@email.com`
-
-4. Skip down to password:
-
-    - Password: `password`
-    - Confirm Password: Check the box to confirm use of weak password.
-    - Role: `Administrator`
-
-5. Create another user named Ryan.
-
-    - Username: `Ryan`
-    - Email: `ryan@email.com`
-
-6. Skip down to password:
-
-    - Password: `123456`
-    - Confirm Password: Check the box to confirm use of weak password.
-    - Role: `Editor`
-
-7. Log out and log in with the following credentials:
-
-    - Username: `Amanda`
-    - Password: `password`
-
-#### Step 2: Baselining
-
-For these "baselining" steps, you'll want to log into two different types of accounts to see how the WordPress site looks at the `localhost:8080/wp-admin/users.php` page.  We want to see how the Users page looks from the perspective of an administrator, vs. a regular user.
-
-1. Using your browser, log into your WordPress site as your sysadmin account and navigate to `localhost:8080/wp-admin/users.php`, where we previously created the user Ryan. Examine this page briefly. Log out.
-
-2. Using your browser, log into your Ryan account and attempt to navigate to `localhost:8080/wp-admin/index.php`. Note the wording on your Dashboard.
-
-3. Attempt to navigate to `localhost:8080/wp-admin/users.php`. Note what you see now.
-
-Log out in the browser.
-
-#### Step 3: Using Forms and a Cookie Jar
-
-Navigate to `~/Documents` in a terminal to save your cookies.
-
-1. Construct a `curl` request that enters two forms: `"log={username}"` and `"pwd={password}"` and goes to `http://localhost:8080/wp-login.php`. Enter Ryan's credentials where there are placeholders.
-
-    - **Question:** Did you see any obvious confirmation of a login? (Y/N)
-
-2. Construct the same `curl` request, but this time add the option and path to save your cookie: `--cookie-jar ./ryancookies.txt`. This option tells `curl` to save the cookies to the `ryancookies.txt` text file.
-
-3. Read the contents of the `ryancookies.txt` file.
-
-   - **Question:** How many items exist in this file?
-
-Note that each one of these is a cookie that was granted to Ryan after logging in.
-
-#### Step 4: Log in Using Cookies
-
-1. Craft a new `curl` command that now uses the `--cookie` option, followed by the path to your cookies file. For the URL, use `http://localhost:8080/wp-admin/index.php`.
-
-   - **Question:** Is it obvious that we can access the Dashboard? (Y/N)
-
-2. Press the up arrow on your keyboard to run the same command, but this time, pipe `| grep Dashboard` to the end of your command to return all instances of the word `Dashboard` on the page.
-
-    - **Question:**  Look through the output where `Dashboard` is highlighted. Does any of the wording on this page seem familiar? (Y/N) If so, you should be successfully logged in to your Editor's dashboard.
-
-#### Step 5: Test the Users.php Page
-
-1. Finally, write a `curl` command using the same `--cookie ryancookies.txt` option, but attempt to access `http://localhost:8080/wp-admin/users.php`.
-
-    - **Question:** What happens this time?
-
----
-
-### Submission Guidelines
-
-* Save the file where you documented your solutions and submit it as your homework deliverable. 
-
----
