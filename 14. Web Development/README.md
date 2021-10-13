@@ -23,13 +23,13 @@
  - A **response body** contains the resource requested by the client, all of the web code and styling that your browser uses to format the page.
 
 5. Which number class of status codes represents errors?
- - 400
+ - 400 is client side / 500 is server side
 
 6. What are the two most common request methods that a security professional will encounter?
  - `GET` and `POST` requests
 
 7. Which type of HTTP request method is used for sending data?
- - `Post`
+ - `POST`
 
 8. Which part of an HTTP request contains the data being sent to the server?
  - The request body
@@ -46,16 +46,16 @@
  - Cybersecurity professionals need to be able to quickly test HTTP requests in a way that can be automated, but also allows them to make adjustments as they work
 
 11. Which `curl` option is used to change the request method?
- - 
+ - `--request` / `-X`
 
 12. Which `curl` option is used to set request headers?  
- - ` --head`
+ - ` --head` / `-H`
 
 13. Which `curl` option is used to view the response header?
- - 
+ - `-I`
 
 14. Which request method might an attacker use to figure out which HTTP requests an HTTP server will accept?
- - 
+ - `OPTIONS`
 
 ## Sessions and Cookies
 
@@ -72,7 +72,7 @@ Answer the following questions about sessions and cookies:
     Set-Cookie: cart=Bob
     ```
 
-16. Which request header will continue the client's session?   - `GET /cart HTTP/1.1`
+16. Which request header will continue the client's session?   - `Set-Cookie: cart=Bob`
 
     ```HTTP
     GET /cart HTTP/1.1
@@ -106,7 +106,7 @@ username=Barbara&password=password
  - `Upgrade-Insecure-Requests: 1`
 
 19. Does the request have a user session associated with it?
- - 
+ - No
 
 20. What kind of data is being sent from this request body?
  - `Content-Type: application/x-www-form-urlencoded`
@@ -134,17 +134,17 @@ X-XSS-Protection: 1; mode=block
  - `200 OK`
 
 22. What web server is handling this HTTP response?
- - 
+ - `Server: Apache`
 
 23. Does this response have a user session associated to it?
  - `Set-Cookie: SessionID=5`
 
 
 24. What kind of content is likely to be in the [page content] response body?
- - 
+ - `Content-Type: text/html` / Probable Webpage
 
 25. If your class covered security headers, what security request headers have been included?
- - 
+ - `Strict-Transport-Security: max-age=31536000; includeSubDomains`
 
 ## Monoliths and Microservices
 
@@ -156,31 +156,31 @@ Answer the following questions about monoliths and microservices:
  - A **database**, used to store information about employees, such as their employee IDs and names. Critical and sensitive information is found in databases.
 
 27. What is a service that writes to a database and communicates to other services?
- - MySQL
+ - API
 
 28. What type of underlying technology allows for microservices to become scalable and have redundancy?
- - 
+ - Containers
 
 #### Deploying and Testing a Container Set
 
 Answer the following questions about multi-container deployment:
 
 29. What tool can be used to deploy multiple containers at once?
- - 
+ - Playbook
 
 30. What kind of file format is required for us to deploy a container set?
- - 
+ - .YML
 
 ## Databases
 
 31. Which type of SQL query would we use to see all of the information within a table called `customers`?
- - 
+ - `SELECT * FROM customers`
 
 32. Which type of SQL query would we use to enter new data into a table? (You don't need a full query, just the first part of the statement.)
- - 
+ - `INSERT INTO`
 
 33. Why would we never run `DELETE FROM <table-name>;` by itself?
- - 
+ - It would delete the entire table.
 
 ---
 
