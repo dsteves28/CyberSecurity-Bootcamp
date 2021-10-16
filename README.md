@@ -22,6 +22,6 @@
 
 ## 12. Azure Server Map
 
-## 13. Elk Stack Project
+## 13. ELK Stack Project
 
 ## 14. Web Development
