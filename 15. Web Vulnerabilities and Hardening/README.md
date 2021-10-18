@@ -2,8 +2,8 @@
 
 ## 1. Command Injection
 
-![1.1]()
-![1.2]()
+![1.1](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/15.%20Web%20Vulnerabilities%20and%20Hardening/01.1.PNG)
+![1.2](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/15.%20Web%20Vulnerabilities%20and%20Hardening/1.2.PNG)
 
 - 
 
