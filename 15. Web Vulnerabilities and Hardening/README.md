@@ -1,0 +1,12 @@
+# Web Vulnerabilities and Hardening
+
+## 1. Command Injection
+
+
+
+## 2. Brute Force and BWAPP
+
+
+
+## 3. BeEF and Zombies
+
