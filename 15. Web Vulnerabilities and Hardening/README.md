@@ -2,9 +2,12 @@
 
 ## 1. Command Injection
 
+![1.1]()
+![1.2]()
 
+- 
 
-## 2. Brute Force and BWAPP
+## 2. BWAPP and Brute Force
 
 
 
