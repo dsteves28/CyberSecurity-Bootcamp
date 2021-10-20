@@ -7,7 +7,7 @@
 
 #### Mitigation
 - Require Multi-Factor Authentication (strongly recommended for employees with administrative privileges).
-- Monitoring employee account log-ins for unusual patterns is a key protection against employee password reuse risk.  Some of the dangers from cyber-attacks occur when unusual patterns of access occur — like repeated logins attempts.
+- Monitoring employee account log-ins for unusual patterns is a key protection against employee password reuse risk.  Some of the dangers from cyber-attacks arise when unusual patterns of access occur — like repeated logins attempts.
 
 ## 2. BWAPP and Brute Force
 
