@@ -5,9 +5,9 @@
 ![1.1](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/15.%20Web%20Vulnerabilities%20and%20Hardening/1.1.PNG)
 ![1.2](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/15.%20Web%20Vulnerabilities%20and%20Hardening/1.2.PNG)
 
-### Mitigation
+#### Mitigation
 - Require Multi-Factor Authentication (strongly recommended for employees with administrative privileges).
-- Monitor: Monitoring employee account log-ins for unusual patterns is a key protection against employee password reuse risk.  Some of the dangers from cyber-attacks occur when unusual patterns of access — like repeated logins attempts.
+- Monitoring employee account log-ins for unusual patterns is a key protection against employee password reuse risk.  Some of the dangers from cyber-attacks occur when unusual patterns of access occur — like repeated logins attempts.
 
 ## 2. BWAPP and Brute Force
 
@@ -16,7 +16,7 @@
 ![2.2.1](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/15.%20Web%20Vulnerabilities%20and%20Hardening/2.2.1.PNG)
 ![2.3](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/15.%20Web%20Vulnerabilities%20and%20Hardening/2.3.PNG)
 
-### Mitigation
+#### Mitigation
 Input validation is performed to ensure only properly formed data is entering the workflow in an information system, preventing malformed data from persisting in the database.
 
 -  Input validation should be applied on both **Syntactical** and **Semantic** level.
