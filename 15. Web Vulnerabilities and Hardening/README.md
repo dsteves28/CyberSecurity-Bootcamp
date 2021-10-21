@@ -33,4 +33,4 @@ It is always recommended to prevent attacks as early as possible in the processi
 ![3.2](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/15.%20Web%20Vulnerabilities%20and%20Hardening/3.2.PNG)
 ![3.3](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/15.%20Web%20Vulnerabilities%20and%20Hardening/3.3.PNG)
 
-![zombie](https://tenor.com/view/bored-zombies-dead-bored-to-death-gif-4553538)
+![zombie](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/15.%20Web%20Vulnerabilities%20and%20Hardening/bored-zombies.gif)
