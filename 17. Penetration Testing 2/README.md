@@ -15,15 +15,15 @@ identified on Hans’ desktop. When performing the attacks, GoodSecurity was abl
 
     2.0 Findings
 
-Machine IP:
-192.168.0.20
-Hostname:
-Icecast streaming media services
-Vulnerability Exploited:
-Icecast Header Overwrite
-Vulnerability Explanation:
-This module exploits a buffer overflow in the header parsing of Icecast versions 2.0.1 and earlier, discovered by Luigi Auriemma. Sending 32 HTTP headers will cause a write one past the end of a pointer array. On win32 this happens to overwrite the saved instruction pointer, and on linux (depending on compiler, etc) this seems to generally overwrite nothing crucial (read not exploitable). This exploit uses ExitThread, this will leave Icecast thinking the thread is still in use, and the thread counter won’t be decremented. This means for each time your payload exits, the counter will be left incremented, and eventually the threadpool limit will be maxed. So you can multihit, but only till you fill the threadpool. 
-Severity:
+**Machine IP:** 192.168.0.20
+
+**Hostname:** Icecast streaming media services
+
+**Vulnerability Exploited:** Icecast Header Overwrite
+
+**Vulnerability Explanation:** This module exploits a buffer overflow in the header parsing of Icecast versions 2.0.1 and earlier, discovered by Luigi Auriemma. Sending 32 HTTP headers will cause a write one past the end of a pointer array. On win32 this happens to overwrite the saved instruction pointer, and on linux (depending on compiler, etc) this seems to generally overwrite nothing crucial (read not exploitable). This exploit uses ExitThread, this will leave Icecast thinking the thread is still in use, and the thread counter won’t be decremented. This means for each time your payload exits, the counter will be left incremented, and eventually the threadpool limit will be maxed. So you can multihit, but only till you fill the threadpool. 
+
+Severity
 
 |Very Severe| |
 |---------|--|
@@ -35,13 +35,13 @@ Severity:
 ## Proof of Concept:
 This is where you show the steps you took. Show the client how you exploited the software services. Please include screenshots!
 
-#### Using Metasploit to use the Icecast Header Overwite exploit to gain access to the target machine
+#### Using Metasploit to use the Icecast Header Overwite exploit to gain access to the target machine.
 ![meta](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/17.%20Penetration%20Testing%202/Metasploit.PNG)
 
-#### After gaining access, you can now search and download files on the target machine
+#### After gaining access, you can now search and download files on the target machine.
 ![meterpreter](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/17.%20Penetration%20Testing%202/meterpreter.PNG)
 
-#### Creating a shell in the target machine and looking at its system information
+#### Creating a shell in the target machine and looking at its system information.
 ![shell](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/17.%20Penetration%20Testing%202/shell.PNG)
 
 There should be a separate finding for each vulnerability found!
