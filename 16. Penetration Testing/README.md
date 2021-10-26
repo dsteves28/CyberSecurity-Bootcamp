@@ -19,8 +19,8 @@
 
 ## 4. Recon-ng
 
-![recon]()
-![reconreport]()
+![recon](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/16.%20Penetration%20Testing/recon.PNG)
+![reconreport](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/16.%20Penetration%20Testing/reconreport.PNG)
 
 Conclusion: Altoro Mutual is vulnerable to XSS.
 
