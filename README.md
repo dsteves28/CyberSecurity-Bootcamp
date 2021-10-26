@@ -27,3 +27,7 @@
 ## 14. Web Development
 
 ## 15. Web Vulnerabilities and Hardening
+
+## 16. Penetration Testing
+
+## 17. Penetration Testing Part 2
