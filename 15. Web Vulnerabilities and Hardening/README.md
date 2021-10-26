@@ -33,3 +33,4 @@ It is always recommended to prevent attacks as early as possible in the processi
 ![3.2](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/15.%20Web%20Vulnerabilities%20and%20Hardening/3.2.PNG)
 ![3.3](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/15.%20Web%20Vulnerabilities%20and%20Hardening/3.3.PNG)
 
+![pluto](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/15.%20Web%20Vulnerabilities%20and%20Hardening/So.%20.%20.%20%20-%20Imgur.gif)
