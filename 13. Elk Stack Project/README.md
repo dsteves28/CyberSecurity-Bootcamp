@@ -96,7 +96,6 @@ Answer the following questions to fill in the blanks:
 - URL to navigate to in order to check that the ELK server is running. http:// (ELK Server Public IP) :5601/app/kibana#/home 
   - My server is http://40.83.184.101:5601/app/kibana#/home
 
-![ron](https://imgur.com/4ao73O6.gif)
 
   ## ELK.yml
 ```
@@ -224,4 +223,3 @@ Answer the following questions to fill in the blanks:
       name: metricbeat
       enabled: yes
 ```
-![bird](https://i.imgur.com/W1pogtE.gif)
