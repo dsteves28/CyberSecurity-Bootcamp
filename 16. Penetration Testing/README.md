@@ -43,4 +43,7 @@ Conclusion: Altoro Mutual is vulnerable to XSS.
 
 - A **mitigation** solution would be updating the sever and require authentication of all users.
 
+ 
+
+ 
 ![yay](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/16.%20Penetration%20Testing/giphy.gif)
