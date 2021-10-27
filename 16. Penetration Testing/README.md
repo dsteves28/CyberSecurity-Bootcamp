@@ -29,16 +29,16 @@ Conclusion: Altoro Mutual is vulnerable to XSS.
 
 ## 5. Zenmap
 
-#### Zenmap Scan Results (nmap -T4 -A or -F -v 192.168.0.10)
+#### Zenmap Scan Results (nmap -sV 192.168.0.10)
 ![]()
 
-#### Zenmap Output (nmap -oN zenmapscan.txt.txt 192.168.0.10)
+#### Zenmap Output (nmap -sV -oN zenmapscan.txt 192.168.0.10)
 ![]()
 
-#### Zenmap vulnerability script command (nmap --script samba-vuln-cve-2012-1182 192.168.0.10)
+#### Zenmap vulnerability script command (nmap --script smb-enum-shares 192.168.0.10)
 ![]()
 
 - The vulnerability is SMB 3 (Samba)
   - This vulnerability may allow an attacker to upload a shared library, then have the server load and execute it. Completely impacts the CIA triad (system files being shared, loss of system protection, and total shutdown of affected source).
 
-- A **mitigation** solution would to **block port 445**
+- A **mitigation** solution would be updating the sever and require authentication of all users.
