@@ -42,3 +42,5 @@ Conclusion: Altoro Mutual is vulnerable to XSS.
   - This vulnerability may allow an attacker to upload a shared library, then have the server load and execute it. Completely impacts the CIA triad (system files being shared, loss of system protection, and total shutdown of affected source).
 
 - A **mitigation** solution would be updating the sever and require authentication of all users.
+
+![yay](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/16.%20Penetration%20Testing/giphy.gif)
