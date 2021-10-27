@@ -41,7 +41,7 @@ Conclusion: Altoro Mutual is vulnerable to XSS.
 - The vulnerability is SMB 3 (Samba)
   - This vulnerability may allow an attacker to upload a shared library, then have the server load and execute it. Completely impacts the CIA triad (system files being shared, loss of system protection, and total shutdown of affected source).
 
-- A **mitigation** solution would be updating the sever and require authentication of all users.
+- A **mitigation** solution would be updating the server and require authentication of all users.
 
  
 
