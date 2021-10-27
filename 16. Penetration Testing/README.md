@@ -33,7 +33,7 @@ Conclusion: Altoro Mutual is vulnerable to XSS.
 ![zen1](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/16.%20Penetration%20Testing/zen1.PNG)
 
 #### Zenmap Output (nmap -sV -oN zenmapscan.txt 192.168.0.10)
-![zen2]()
+![zen2](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/16.%20Penetration%20Testing/zen2.PNG)
 
 #### Zenmap vulnerability script command (nmap --script smb-enum-shares 192.168.0.10)
 ![]()
