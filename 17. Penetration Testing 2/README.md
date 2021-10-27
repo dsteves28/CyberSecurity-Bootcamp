@@ -25,15 +25,14 @@ identified on Hans’ desktop. When performing the attacks, GoodSecurity was abl
 
 Severity
 
-|Very Severe| |
-|---------|--|
+|**Very Severe**| |
+|-----------|--|
 |Confidentiality Impact|Partial (There is considerable informational disclosure.)|
 |Integrity Impact|Partial (Modification of some system files or information is possible, but the attacker does not have control over what can be modified, or the scope of what the attacker can affect is limited.)|
 |Availability Impact|Partial (There is reduced performance or interruptions in resource availability.)|
 |Access Complexity|Low (Specialized access conditions or extenuating circumstances do not exist. Very little knowledge or skill is required to exploit. )|
 
 ## Proof of Concept:
-This is where you show the steps you took. Show the client how you exploited the software services. Please include screenshots!
 
 #### Using Metasploit to use the Icecast Header Overwite exploit to gain access to the target machine.
 ![meta](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/17.%20Penetration%20Testing%202/Metasploit.PNG)
@@ -43,9 +42,6 @@ This is where you show the steps you took. Show the client how you exploited the
 
 #### Creating a shell in the target machine and looking at its system information.
 ![shell](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/17.%20Penetration%20Testing%202/shell.PNG)
-
-There should be a separate finding for each vulnerability found!
-
 
 
     3.0 Recommendations

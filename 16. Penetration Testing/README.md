@@ -10,7 +10,7 @@
 1. NetRange: 65.61.137.64 - 65.61.137.127
 2. Demo.testfire.net Location - Sunnyvale, CA, 94085
 3. Infrastructure Location - Rackspace Backbone Engineering. 9725 Datapoint Drive, Suite 100, San Antonio, TX, 78229
-4. 65.61.137.117
+4. DNS server IP Address: 65.61.137.117
 
 ## 3. Shodan
 
@@ -19,10 +19,26 @@
 
 ## 4. Recon-ng
 
+#### Using Recon-ng to search for and use module xssed. Then exporting results to html.
 ![recon](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/16.%20Penetration%20Testing/recon.PNG)
+
+#### The Report from Recon-ng module xssed (html format).
 ![reconreport](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/16.%20Penetration%20Testing/reconreport.PNG)
 
 Conclusion: Altoro Mutual is vulnerable to XSS.
 
 ## 5. Zenmap
 
+#### Zenmap Scan Results (nmap -T4 -A or -F -v 192.168.0.10)
+![]()
+
+#### Zenmap Output (nmap -oN zenmapscan.txt.txt 192.168.0.10)
+![]()
+
+#### Zenmap vulnerability script command (nmap --script samba-vuln-cve-2012-1182 192.168.0.10)
+![]()
+
+- The vulnerability is SMB 3 (Samba)
+  - This vulnerability may allow an attacker to upload a shared library, then have the server load and execute it. Completely impacts the CIA triad (system files being shared, loss of system protection, and total shutdown of affected source).
+
+- A **mitigation** solution would to **block port 445**
