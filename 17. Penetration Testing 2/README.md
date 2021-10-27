@@ -23,7 +23,7 @@ identified on Hans’ desktop. When performing the attacks, GoodSecurity was abl
 
 **Vulnerability Explanation:** This module exploits a buffer overflow in the header parsing of Icecast versions 2.0.1 and earlier, discovered by Luigi Auriemma. Sending 32 HTTP headers will cause a write one past the end of a pointer array. On win32 this happens to overwrite the saved instruction pointer, and on linux (depending on compiler, etc) this seems to generally overwrite nothing crucial (read not exploitable). This exploit uses ExitThread, this will leave Icecast thinking the thread is still in use, and the thread counter won’t be decremented. This means for each time your payload exits, the counter will be left incremented, and eventually the threadpool limit will be maxed. So you can multihit, but only till you fill the threadpool. 
 
-Severity
+    Severity
 
 |**Very Severe**| |
 |-----------|--|
