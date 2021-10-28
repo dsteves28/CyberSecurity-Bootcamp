@@ -50,6 +50,7 @@ What recommendations would you give to GoodCorp?
 
 
 
+
 ![beautiful](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/17.%20Penetration%20Testing%202/beautiful.gif)
 
 And just because...

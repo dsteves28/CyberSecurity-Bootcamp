@@ -27,7 +27,7 @@ Step 3. **Create a Training Plan**
 
 ## [04. Linux SysAdmin Fundamentals](https://github.com/dsteves28/CyberSecurity-Bootcamp/tree/main/04.%20Linux%20SysAdmin%20Fundamentals)
 
-### 
+### Perform a Linux system administration role by covering the foundational knowledge of users, groups, permissions, and access controls.
 1. **Ensure Permissions on Sensitive Files** - Inspecting the file permissions of each of the following files. `/etc/shadow` `/etc/gshadow` `/etc/group` `/etc/passwd`
 2. **Create User Accounts** - Setting up various users in Linux.
 3. **Create User Group and Collaborative Folder** - In Linux create a group, adding users to it, creating a shared group folder, setting the group folder owners for these shared folders.
