@@ -6,7 +6,7 @@
 
 ## [02. Governance, Risk, and Compliance](https://github.com/dsteves28/CyberSecurity-Bootcamp/tree/main/02.%20Governance%2C%20Risk%2C%20and%20Compliance)
 
-#### This section is about security culture and how to promote it within organizations. 
+### This section is about security culture and how to promote it within organizations. 
 It’s important that all employees are aware of common security risks and treat security seriously. The majority of cyberattacks aim to exploit human weaknesses with methods like phishing.
 For this reason, people are most often the weakest link in an organization’s security defenses.
 1. **Measure and Set Goals**
