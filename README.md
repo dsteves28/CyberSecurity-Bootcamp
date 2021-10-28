@@ -36,7 +36,7 @@ Step 3. **Create a Training Plan**
 
 ## [05. Archiving and Logging Data](https://github.com/dsteves28/CyberSecurity-Bootcamp/tree/main/05.%20Archiving%20and%20Logging%20Data)
 
-### Perform the role of a security analyst. In an effort to mitigate network attacks eveloped an efficient log management program that performs:
+### Perform the role of a security analyst in an effort to mitigate network attacks eveloped an efficient log management program that performs:
 - Log size management using `logrotate`.
 - Log auditing with `auditd` to track events, record the events, detect abuse or unauthorized activity, and create custom reports.      
   - These tools, in addition to archives, backups, scripting, and task automation, contribute to a fully comprehensive log management system.
