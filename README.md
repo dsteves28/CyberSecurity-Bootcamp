@@ -2,7 +2,8 @@
 
 ## [01. CyberSecurity](https://github.com/dsteves28/CyberSecurity-Bootcamp/tree/main/01.%20CyberSecurity)
 
-
+### Research on prominent reports, blogs, and research papers.
+- Navigating four prominent security reports and answering questions in order to get a basic understanding of the market.
 
 ## [02. Governance, Risk, and Compliance](https://github.com/dsteves28/CyberSecurity-Bootcamp/tree/main/02.%20Governance%2C%20Risk%2C%20and%20Compliance)
 
