@@ -81,7 +81,7 @@
     ```
 ---
 
-### Check for Policy and File Violations
+### Step 5. Check for Policy and File Violations
 
 1. Command to verify `auditd` is active: ' systemctl | grep auditd ' 
 
@@ -109,7 +109,7 @@
 
 ---
 
-### Bonus Perform Various Log Filtering Techniques
+### Step 6. Perform Various Log Filtering Techniques
 
 1. Command to return `journalctl` messages with priorities from emergency to error: 
     `sudo journalctl -b -p 0..3`

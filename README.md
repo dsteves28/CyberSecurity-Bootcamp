@@ -36,6 +36,25 @@ Step 3. **Create a Training Plan**
 
 ## [05. Archiving and Logging Data](https://github.com/dsteves28/CyberSecurity-Bootcamp/tree/main/05.%20Archiving%20and%20Logging%20Data)
 
+### Perform the role of a security analyst. In an effort to mitigate network attacks eveloped an efficient log management program that performs:
+- Log size management using `logrotate`.
+- Log auditing with `auditd` to track events, record the events, detect abuse or unauthorized activity, and create custom reports.
+        
+      These tools, in addition to archives, backups, scripting, and task automation, contribute to a fully comprehensive log management system.
+
+Step 1. **Creating, Extracting, Compressing, and Managing tar Backup Archives**
+
+Step 2. **Creating, Managing, and Automating Cron Jobs**
+
+Step 3. **Writing Basic Bash Scripts**
+
+Step 4. **Managing Log File Sizes**
+
+#### Along with:
+- **Checking for Policy and File Violations**
+
+- **Performing Various Log Filtering Techniques**
+
 ## [06. Bash Scripting and Programming](https://github.com/dsteves28/CyberSecurity-Bootcamp/tree/main/06.%20Bash%20Scripting%20and%20Programming)
 
 ## [07. Windows Administration and Hardening](https://github.com/dsteves28/CyberSecurity-Bootcamp/tree/main/07.%20Windows%20Administration%20and%20Hardening)
