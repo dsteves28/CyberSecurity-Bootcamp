@@ -11,9 +11,15 @@ It’s important that all employees are aware of common security risks and treat
 For this reason, people are most often the weakest link in an organization’s security defenses.
 1. **Measure and Set Goals**
 2. **Involve the Right People**
-3. **Training Plan** 
+3. **Create a Training Plan** 
 
 ## [03. Terminal and Bash](https://github.com/dsteves28/CyberSecurity-Bootcamp/tree/main/03.%20Terminal%20and%20Bash)
+
+### Using command-line skills to navigating, modifying, and analyzing data files.
+- Taking the role of a security analyst for the Lucky Duck Casino to uncover the identities of a rogue casino player and dealer colluding to scam Lucky Duck out of thousands of dollars.
+  - Analyzing a large database with data on wins and losses, player analysis, and dealer schedules.
+  - Preparing several evidence files to assist the prosecution.
+  - A summary of the findings for the casino.
 
 ## [04. Linux SysAdmin Fundamentals](https://github.com/dsteves28/CyberSecurity-Bootcamp/tree/main/04.%20Linux%20SysAdmin%20Fundamentals)
 
