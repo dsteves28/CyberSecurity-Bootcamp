@@ -38,9 +38,8 @@ Step 3. **Create a Training Plan**
 
 ### Perform the role of a security analyst. In an effort to mitigate network attacks eveloped an efficient log management program that performs:
 - Log size management using `logrotate`.
-- Log auditing with `auditd` to track events, record the events, detect abuse or unauthorized activity, and create custom reports.
-        
-      These tools, in addition to archives, backups, scripting, and task automation, contribute to a fully comprehensive log management system.
+- Log auditing with `auditd` to track events, record the events, detect abuse or unauthorized activity, and create custom reports.      
+  - These tools, in addition to archives, backups, scripting, and task automation, contribute to a fully comprehensive log management system.
 
 Step 1. **Creating, Extracting, Compressing, and Managing tar Backup Archives**
 
@@ -50,7 +49,7 @@ Step 3. **Writing Basic Bash Scripts**
 
 Step 4. **Managing Log File Sizes**
 
-#### Along with:
+#### Also Included:
 - **Checking for Policy and File Violations**
 
 - **Performing Various Log Filtering Techniques**
