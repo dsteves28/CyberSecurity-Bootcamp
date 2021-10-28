@@ -1,4 +1,4 @@
-
+# Terminal and Bash
 
 
 ![1](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/03.%20Terminal%20and%20Bash/1.PNG)
