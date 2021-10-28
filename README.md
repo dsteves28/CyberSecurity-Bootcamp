@@ -24,6 +24,13 @@ For this reason, people are most often the weakest link in an organization’s s
 
 ## [04. Linux SysAdmin Fundamentals](https://github.com/dsteves28/CyberSecurity-Bootcamp/tree/main/04.%20Linux%20SysAdmin%20Fundamentals)
 
+### 
+1. **Ensure Permissions on Sensitive Files** - Inspecting the file permissions of each of the following files. `/etc/shadow` `/etc/gshadow` `/etc/group` `/etc/passwd`
+2. **Create User Accounts** - Setting up various users in Linux.
+3. **Create User Group and Collaborative Folder** - In Linux create a group, adding users to it, creating a shared group folder, setting the group folder owners for these shared folders.
+4. **Lynis Auditing** - Running an audit against the system in order to harden it.
+5. **Chrootkit** - Using Chrootkit to see what can be done to harden the system
+
 ## [05. Archiving and Logging Data](https://github.com/dsteves28/CyberSecurity-Bootcamp/tree/main/05.%20Archiving%20and%20Logging%20Data)
 
 ## [06. Bash Scripting and Programming](https://github.com/dsteves28/CyberSecurity-Bootcamp/tree/main/06.%20Bash%20Scripting%20and%20Programming)
