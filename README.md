@@ -10,9 +10,12 @@
 ### This section is about security culture and how to promote it within organizations. 
 It’s important that all employees are aware of common security risks and treat security seriously. The majority of cyberattacks aim to exploit human weaknesses with methods like phishing.
 For this reason, people are most often the weakest link in an organization’s security defenses.
-1. **Measure and Set Goals**
-2. **Involve the Right People**
-3. **Create a Training Plan** 
+
+Step 1. **Measure and Set Goals**
+
+Step 2. **Involve the Right People**
+
+Step 3. **Create a Training Plan** 
 
 ## [03. Terminal and Bash](https://github.com/dsteves28/CyberSecurity-Bootcamp/tree/main/03.%20Terminal%20and%20Bash)
 
@@ -28,8 +31,8 @@ For this reason, people are most often the weakest link in an organization’s s
 1. **Ensure Permissions on Sensitive Files** - Inspecting the file permissions of each of the following files. `/etc/shadow` `/etc/gshadow` `/etc/group` `/etc/passwd`
 2. **Create User Accounts** - Setting up various users in Linux.
 3. **Create User Group and Collaborative Folder** - In Linux create a group, adding users to it, creating a shared group folder, setting the group folder owners for these shared folders.
-4. **Lynis Auditing** - Running an audit against the system in order to harden it.
-5. **Chrootkit** - Using Chrootkit to see what can be done to harden the system
+4. **Lynis Auditing** - Using Lynis to run an audit against the system in order to harden it.
+5. **Chrootkit** - Using Chrootkit to see what can be done to harden the system.
 
 ## [05. Archiving and Logging Data](https://github.com/dsteves28/CyberSecurity-Bootcamp/tree/main/05.%20Archiving%20and%20Logging%20Data)
 
