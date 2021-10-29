@@ -41,7 +41,7 @@ Step 3. **Create a Training Plan**
 - Log auditing with `auditd` to track events, record the events, detect abuse or unauthorized activity, and create custom reports.      
   - These tools, in addition to archives, backups, scripting, and task automation, contribute to a fully comprehensive log management system.
 
-Step 1. **Creating, Extracting, Compressing, and Managing tar Backup Archives** - Creating tar archives; along with extracting and excluding specific files and directories to help speed up your workflow.
+**Step 1.** **Creating, Extracting, Compressing, and Managing tar Backup Archives** - Creating tar archives; along with extracting and excluding specific files and directories to help speed up your workflow.
 
 Step 2. **Creating, Managing, and Automating Cron Jobs** - Creating an archiving and backup scheme to mitigate against malware.
 
