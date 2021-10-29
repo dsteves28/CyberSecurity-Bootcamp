@@ -43,11 +43,11 @@ Step 3. **Create a Training Plan**
 
 **Step 1.** **Creating, Extracting, Compressing, and Managing tar Backup Archives** - Creating tar archives; along with extracting and excluding specific files and directories to help speed up your workflow.
 
-Step 2. **Creating, Managing, and Automating Cron Jobs** - Creating an archiving and backup scheme to mitigate against malware.
+**Step 2.** **Creating, Managing, and Automating Cron Jobs** - Creating an archiving and backup scheme to mitigate against malware.
 
-Step 3. **Writing Basic Bash Scripts** - Set up multiple backup directories. Each directory will be dedicated to housing text files that you will create with different kinds of system information.
+**Step 3.** **Writing Basic Bash Scripts** - Set up multiple backup directories. Each directory will be dedicated to housing text files that you will create with different kinds of system information.
 
-Step 4. **Managing Log File Sizes** - Implement log rotation in order to preserve log entries and keep log file sizes more manageable. Also compress logs during rotation to preserve disk space and lower costs.
+**Step 4.** **Managing Log File Sizes** - Implement log rotation in order to preserve log entries and keep log file sizes more manageable. Also compress logs during rotation to preserve disk space and lower costs.
 
 #### Also Included:
 - **Checking for Policy and File Violations** - Create an event monitoring system that specifically generates reports whenever new accounts are created or modified, and when any modifications are made to authorization logs.
