@@ -56,7 +56,15 @@ Step 3. **Create a Training Plan**
 
 ## [06. Bash Scripting and Programming](https://github.com/dsteves28/CyberSecurity-Bootcamp/tree/main/06.%20Bash%20Scripting%20and%20Programming)
 
-### 
+### Gaining and maintaining access to the target machine by installing a backdoor. Then use the backdoor to crack sensitive passwords.
+
+**Step 1.** Create a "secret" user named sysd. Anyone examining /etc/passwd will assume this is a service account.
+
+**Step 2.** Allow SSH access via port 2222. SSH usually runs on port 22, but opening port 2222 will allow you to log in as your secret sysd user without connecting to the standard (and well-guarded) port 22.
+
+**Step 3.** Test your solution by testing the new backdoor SSH port.
+
+**Step 4.** Attempt to crack as many passwords as possible with John the Ripper.
 
 ## [07. Windows Administration and Hardening](https://github.com/dsteves28/CyberSecurity-Bootcamp/tree/main/07.%20Windows%20Administration%20and%20Hardening)
 
@@ -95,5 +103,13 @@ Step 3. **Create a Training Plan**
 ###
 
 ## [17. Penetration Testing Part 2](https://github.com/dsteves28/CyberSecurity-Bootcamp/tree/main/17.%20Penetration%20Testing%202)
+
+###
+
+## [18. SIEMs]()
+
+###
+
+## [19. SIEMs Part 2]()
 
 ###
