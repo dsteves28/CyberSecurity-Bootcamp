@@ -72,10 +72,7 @@ Step 3. **Create a Training Plan**
 
 1. **Create a GPO: Disable Local Link Multicast Name Resolution (LLMNR)**
    - **Local Link Multicast Name Resolution (LLMNR)** is a vulnerability, so we will be disabling it on Windows 10.
-      - LLMNR is a protocol used as a backup (not an alternative) for DNS in Windows.
-      - When Windows cannot find a local address (e.g. the location of a file server), it uses LLMNR to send out a broadcast across the network asking if any device knows the address.
-      - LLMNR’s vulnerability is that it accepts any response as authentic, allowing attackers to poison or spoof LLMNR responses, forcing devices to authenticate to them.
-      - An LLMNR-enabled Windows machine may automatically trust responses from anyone in the network.
+      
       - Turning off LLMNR will prevent our Windows machine from trusting location responses from potential attackers.
 
 2. **Create a GPO: Account Lockout**
@@ -85,10 +82,6 @@ Step 3. **Create a Training Plan**
 3. **Create a GPO: Enabling Verbose PowerShell Logging and Transcription**
    - PowerShell is often used as a living off the land hacker tool. 
      - Once a hacker gains access to a Windows machine, they will leverage built-in tools, such as PowerShell and wmic, as much as possible to achieve their goals while trying to stay under the radar.
-
-   - So why not just completely disable PowerShell?
-     - Many security tools and system administration management operations, such as workstation provisioning, require heavy use of PowerShell to set up machines.
-
    - A PowerShell practice that is recommended regardless of whether PowerShell is enabled or disabled: **Enabling enhanced PowerShell logging and visibility through verbosity.**
      - This type of policy is important for tools like SIEM and for forensics operations, as it helps combat obfuscated PowerShell payloads.
 
@@ -101,7 +94,7 @@ Step 3. **Create a Training Plan**
 
 ## [08. Networking Fundamentals](https://github.com/dsteves28/CyberSecurity-Bootcamp/tree/main/08.%20Networking%20Fundamentals)
 
-###
+### 
 
 ## [09. Networking Fundamentals II](https://github.com/dsteves28/CyberSecurity-Bootcamp/tree/main/09.%20Networking%20Fundamentals%20II)
 
