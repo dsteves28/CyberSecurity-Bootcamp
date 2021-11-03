@@ -54,6 +54,15 @@ What recommendations would you give to GoodCorp?
 - Set up firewalls with rules to only explicitly allow traffic on needed ports.
 
 
+
+
+
+
+.
+
+       Memes
+
+
 ![beautiful](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/17.%20Penetration%20Testing%202/beautiful.gif)
 
 And just because...
