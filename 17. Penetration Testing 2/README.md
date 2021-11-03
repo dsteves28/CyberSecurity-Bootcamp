@@ -23,7 +23,7 @@ identified on Hans’ desktop. When performing the attacks, GoodSecurity was abl
 
 **Vulnerability Explanation:** This module exploits a buffer overflow in the header parsing of Icecast versions 2.0.1 and earlier, discovered by Luigi Auriemma. Sending 32 HTTP headers will cause a write one past the end of a pointer array. On win32 this happens to overwrite the saved instruction pointer, and on linux (depending on compiler, etc) this seems to generally overwrite nothing crucial (read not exploitable). This exploit uses ExitThread, this will leave Icecast thinking the thread is still in use, and the thread counter won’t be decremented. This means for each time your payload exits, the counter will be left incremented, and eventually the threadpool limit will be maxed. So you can multihit, but only till you fill the threadpool. 
 
-    Severity
+    Severity Factor
 
 |**Very Severe**| |
 |-----------|--|
@@ -48,7 +48,10 @@ identified on Hans’ desktop. When performing the attacks, GoodSecurity was abl
 
 What recommendations would you give to GoodCorp?
 
-
+- Update to Icecast 2.0.2 or later. Update all other software. 
+  - Set automatic updates for all software, with the option to rollback in case the most recent update is insecere. 
+- Encrypt all files/folders that you want to keep a secret
+- Set up firewalls with rules to only explicitly allow traffic on needed ports.
 
 
 ![beautiful](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/17.%20Penetration%20Testing%202/beautiful.gif)
