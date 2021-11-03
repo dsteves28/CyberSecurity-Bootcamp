@@ -68,7 +68,7 @@ Step 3. **Create a Training Plan**
 
 ## [07. Windows Administration and Hardening](https://github.com/dsteves28/CyberSecurity-Bootcamp/tree/main/07.%20Windows%20Administration%20and%20Hardening)
 
-###
+### 
 
 ## [08. Networking Fundamentals](https://github.com/dsteves28/CyberSecurity-Bootcamp/tree/main/08.%20Networking%20Fundamentals)
 
@@ -106,10 +106,10 @@ Step 3. **Create a Training Plan**
 
 ###
 
-## [18. SIEMs]()
+## [18. SIEMs](https://github.com/dsteves28/CyberSecurity-Bootcamp/tree/main/18.%20SIEMs)
 
 ###
 
-## [19. SIEMs Part 2]()
+## [19. SIEMs Part 2](https://github.com/dsteves28/CyberSecurity-Bootcamp/tree/main/19.%20SIEMs%20Part%202)
 
-###
+### 
