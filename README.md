@@ -80,14 +80,11 @@ Step 3. **Create a Training Plan**
      - This policy defends against brute-force attacks, in which attackers can enter a million passwords in just a few minutes.
 
 3. **Create a GPO: Enabling Verbose PowerShell Logging and Transcription**
-   - PowerShell is often used as a living off the land hacker tool. 
-     - Once a hacker gains access to a Windows machine, they will leverage built-in tools, such as PowerShell and wmic, as much as possible to achieve their goals while trying to stay under the radar.
    - A PowerShell practice that is recommended regardless of whether PowerShell is enabled or disabled: **Enabling enhanced PowerShell logging and visibility through verbosity.**
      - This type of policy is important for tools like SIEM and for forensics operations, as it helps combat obfuscated PowerShell payloads.
 
 4. **Create a Script: Enumerate Access Control Lists**
    - A PowerShell script that will enumerate the Access Control List of each file or subdirectory within the current working directory.
-     - In Windows, access to files and directories are managed by Access Control Lists (ACLs). These identify which entities (known as security principals), such as users and groups, can access which resources. ACLs use security identifers to manage which principals can access which resources.
 
 5. **Verifing the PowerShell Logging GPO**
    - A test to verify that the PowerShell logging GPO is working properly.

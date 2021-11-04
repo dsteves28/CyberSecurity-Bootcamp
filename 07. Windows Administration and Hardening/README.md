@@ -36,6 +36,7 @@
 
 ### 4: Create a Script: Enumerate Access Control Lists
    - A PowerShell script that will enumerate the Access Control List of each file or subdirectory within the current working directory.
+        - In Windows, access to files and directories are managed by Access Control Lists (ACLs). These identify which entities (known as security principals), such as users and groups, can access which resources. ACLs use security identifers to manage which principals can access which resources.
 ![4](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/07.%20Windows%20Administration%20and%20Hardening/4.PNG)
 
 ### 5: Verify the PowerShell Logging GPO
