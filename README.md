@@ -91,23 +91,67 @@ Step 3. **Create a Training Plan**
 
 ## [08. Networking Fundamentals](https://github.com/dsteves28/CyberSecurity-Bootcamp/tree/main/08.%20Networking%20Fundamentals)
 
-### 
+### Completing a **Network Vulnerability Assessment** and indicating at which **OSI Layer** the findings are found. 
+
+1. Use `fping` to ping the network assets. 
+
+2. A `SYN SCAN` against the IP accepting connections using **Nmap** (`nmap -sS  <IP 
+Address>`).
+
+3. Using `nslookup` to determine the real domain of the IP address and `SSH` into 
+server.
+
+4. Use **Wireshark** to analyze a **pcap** file and determine if there was any suspicious activity.
 
 ## [09. Networking Fundamentals II](https://github.com/dsteves28/CyberSecurity-Bootcamp/tree/main/09.%20Networking%20Fundamentals%20II)
 
-###
+###  A fun Capture the Flag (CTF) building on the skills learned in the previous section; covering more advanced concepts such as DHCP, NAT, routing, wireless technology, DNS records, and email networking.
+
+1. Determine and document the mail servers using `nslookup`.
+
+2. Determine and document the SPF using `nslookup`.
+
+3. Document how a CNAME should look by viewing the CNAME. using NSLOOKUP.
+   - Explain why the sub page isn't redirecting.
+
+4. Confirm the DNS records and document how you would fix the DNS record to prevent this issue from happening again.
+
+5. Viewing the Network Map and determine the **OSPF** shortest path. 
+   - Confirm your path doesn't include N in its route.
+     - Document this shortest path to develop a static route to improve the traffic.
+
+6. Figure out the secret wireless key by using `Aircrack-ng`.
+   - Use the key to decrypt the wireless traffic in Wireshark.
+     - Once the traffic is decrypted, document **Host IP Addresses** and **MAC Addresses** by looking at the decrypted `ARP` traffic.
 
 ## [11. Network Security](https://github.com/dsteves28/CyberSecurity-Bootcamp/tree/main/11.%20Network%20Security)
 
-###
+### An introduction to network security from both a theoretical and practical standpoint. Exploring the benefits of using defense in depth methodologies and how firewalls serve as the network's primary defense mechanism at both the perimeter and interior of the network.
+
+**Review** - Security Control Types - Intrusion Detection and Attack indicators - The Cyber Kill Chain
+
+**Part 1:** Snort Rule Analysis
+
+**Part 2:** Configure zones that will segment each network according to service type.
+
+**Part 3:** IDS, IPS, DiD (Defense in Depth), and Firewalls.
 
 ## [12. Azure Server Map](https://github.com/dsteves28/CyberSecurity-Bootcamp/tree/main/12.%20Network%20Map)
 
-###
+### Planning and creating a detailed diagram of my cloud infrastructure (Using drawio.io).
 
-## [13. ELK Stack Project](https://github.com/dsteves28/CyberSecurity-Bootcamp/tree/main/13.%20Elk%20Stack%20Project)
+## [13. ELK Stack Project](https://github.com/dsteves28/CyberSecurity-Bootcamp/tree/main/13.%20Elk%20Stack%20Project) (Very proud of this!)
 
-###
+### Using **Azure**, create and configure an **ELK Stack Server** in order to set up a cloud monitoring system. 
+- This project demonstrates my knowledge of cloud, network security, logging and monitoring. 
+- Demonstrates my use of **Azure, Docker, Ansible, Elasticsearch, Logstash, Kibana, Filebeat, & Metricbeat**
+
+*Description of the Topology*
+  - Access Policies
+  - ELK Configuration
+    - Beats in Use
+    - Machines Being Monitored
+  - How to Use the Ansible Build
 
 ## [14. Web Development](https://github.com/dsteves28/CyberSecurity-Bootcamp/tree/main/14.%20Web%20Development)
 
