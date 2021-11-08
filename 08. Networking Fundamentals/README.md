@@ -3,6 +3,8 @@
 
 ### Step 1
 
+(`fping <IP Address>`)
+
 ![1.0](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/08.%20Networking%20Fundamentals/1.0.png)
 ![1.1](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/08.%20Networking%20Fundamentals/1.1.png)
 
@@ -10,12 +12,16 @@
 
 ### Step 2
 
+(`nmap -sS  <IP Address>`)
+
 ![2.0](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/08.%20Networking%20Fundamentals/2.0.png)
 
     • Level 2: Data
     • Port 22 is the default port and should be closed.
 
 ### Step 3
+
+(`nslookup <IP Address> or  <Domain Name>`) 
 
 ![3.0](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/08.%20Networking%20Fundamentals/3.0.png)
 ![3.1](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/08.%20Networking%20Fundamentals/3.1.png)
