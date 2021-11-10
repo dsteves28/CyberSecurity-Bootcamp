@@ -26,7 +26,7 @@ Results:
 ![Nessus Logs Alert](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/18.%20SIEMs/Nessus%20Logs%20Alert.PNG)
 
 #### Setting up alert.
-![Nessus Logs Alert Edit 1](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/18.%20SIEMs/Nessus%20Logs%20Alert%20Edit%202.PNG)
+![Nessus Logs Alert Edit 1](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/18.%20SIEMs/Nessus%20Logs%20Alert%20Edit%201.PNG)
 
 ![Nessus Logs Alert Edit 2](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/18.%20SIEMs/Nessus%20Logs%20Alert%20Edit%202.PNG)
 
