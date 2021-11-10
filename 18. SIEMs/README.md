@@ -11,6 +11,9 @@
 ![Speedtest table](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/18.%20SIEMs/Speedtest%20table.PNG)
 
 Results: 
+Worst effects were at 2020-02-23 14:30:00 2020-02-23 till. 18:30:00 2020-02-23. Started to recover at 2020-02-23 20:30:00. Full recovery at 2020-02-23 23:30:00.
+
+Worst effects lasted 4 hours. System started to recover after 6 hours. Full recovery after 9 hours.
 
 ## 2. Determine how many critical vulnerabilities exist on the customer data server. 
 
@@ -44,3 +47,6 @@ Results:
 ![Administrator Logs Alert Edit 1](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/18.%20SIEMs/Administrator%20Logs%20Alert%20Edit%201.PNG)
 
 ![Administrator Logs Alert Edit 2](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/18.%20SIEMs/Administrator%20Logs%20Alert%20Edit%202.PNG)
+
+Results: 
+Brute force started at 8 am on Friday, February 21, 2020. Lasted 8 am on Friday, February 21, 2020.
