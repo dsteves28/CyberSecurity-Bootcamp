@@ -27,7 +27,7 @@
 - In your attack, you found a secret folder. Let's look at that interaction between these two machines. `source.ip: 192.168.1.90 AND destination.ip: 192.168.1.105 AND url.path: /company_folders/secret_folder/`
 
   - How many requests were made to this directory? At what time and from which IP address(es)? 
-    - 15,225
+    - 15,225 (source.ip: 192.168.1.90)(Nov 11, 2021 @ 00:50:00.000 and Nov 11, 2021 @ 01:05:00.0)
   ![2.1](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/20.%20Red%20vs%20Blue/2.%20Blue/2.1.PNG)
   - Which files were requested? What information did they contain? 
     - `192.168.1.105/company_folders/secret_folder/connect_to_corp_server`
