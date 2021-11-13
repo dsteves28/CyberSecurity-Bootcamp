@@ -28,7 +28,7 @@
 
   - How many requests were made to this directory? At what time and from which IP address(es)? 
     - 4 (source.ip: 192.168.1.90)(Nov 11, 2021 @ 00:50:00.000 and Nov 11, 2021 @ 01:05:00.0)
-  ![2.1](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/20.%20Red%20vs%20Blue/2.%20Blue/2.1.PNG)
+  ![2](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/20.%20Red%20vs%20Blue/2.%20Blue/2.PNG)
   - Which files were requested? What information did they contain? 
     - `192.168.1.105/company_folders/secret_folder/connect_to_corp_server`
   - What kind of alarm would you set to detect this behavior in the future? 
