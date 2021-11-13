@@ -1,6 +1,7 @@
 
-![D1]()
-![D2]()
+![D1](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/20.%20Red%20vs%20Blue/2.%20Blue/D1.PNG)
+
+![D2](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/20.%20Red%20vs%20Blue/2.%20Blue/D2.PNG)
 
 1. Identify the offensive traffic.
 
@@ -8,15 +9,15 @@
 
     - When did the interaction occur? 
       - Nov 11, 2021 @ 00:00:00.000 → Nov 11, 2021 @ 03:00:00.0
-    ![1]()
+    ![1](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/20.%20Red%20vs%20Blue/2.%20Blue/1.PNG)
     - What responses did the victim send back? 
       - `401, 301, 207, 404` and `200`
-    ![1.2]()
-    ![1.2.1]()
+    ![1.2](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/20.%20Red%20vs%20Blue/2.%20Blue/1.2.PNG)
+    ![1.2.1](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/20.%20Red%20vs%20Blue/2.%20Blue/1.2.1.PNG)
     - What data is concerning from the Blue Team perspective? 
       - A spike in the `Connections over time [Packetbeat Flows] ECS`. This is due to `hydra`.
-    ![1.3]()
-    ![1.3.1]()
+    ![1.3](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/20.%20Red%20vs%20Blue/2.%20Blue/1.3.PNG)
+    ![1.3.1](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/20.%20Red%20vs%20Blue/2.%20Blue/1.3.1.PNG)
 
 
 2. Find the request for the hidden directory.
@@ -25,7 +26,7 @@
 
   - How many requests were made to this directory? At what time and from which IP address(es)? 
     - 15,225
-  ![2.1]()
+  ![2.1](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/20.%20Red%20vs%20Blue/2.%20Blue/2.1.PNG)
   - Which files were requested? What information did they contain? 
     - `192.168.1.105/company_folders/secret_folder/connect_to_corp_server`
   - What kind of alarm would you set to detect this behavior in the future? 
@@ -46,8 +47,8 @@
   - What kind of alarm would you set to detect this behavior in the future and at what threshold(s)? 
     - Base of the spikes seen in `Connections over time [Packetbeat Flows] ECS` and `Errors vs successful transactions [Packetbet] ECS`, we could set an alert if `401 Unauthorized` is returned from any server over a certain threshold that would weed out forgotten passwords. Start with 10 in one hour and refine from there.
     - We could also create an alert if the `user_agent.original` value includes `Hydra` in the name.
-  ![1.3]()
-  ![1.3.1]()
+  ![1.3](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/20.%20Red%20vs%20Blue/2.%20Blue/1.3.PNG)
+  ![1.3.1](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/20.%20Red%20vs%20Blue/2.%20Blue/1.3.1.PNG)
   - Identify at least one way to harden the vulnerable machine that would mitigate this attack.
     - After the limit of 10 `401 Unauthorized` codes have been returned from a server, that server can automatically drop traffic from the offending IP address for a period of 1 hour. We could also display a lockout message and lock the page from login for a temporary period of time from that user.
 
@@ -59,7 +60,7 @@
 
   - How many requests were made to this directory?
     - The `Top 10 HTTP requests [Packetbeat] ECS` panel shows that the webdav folder was directly connected and files inside were accessed.
-  ![2.1]()
+  ![2.1](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/20.%20Red%20vs%20Blue/2.%20Blue/2.1.PNG)
   - Which file(s) were requested? 
     - With the `Top 10 HTTP requests [Packetbeat] ECS` panel we can see the passwd.dav and shell.php file were requested.
   - What kind of alarm would you set to detect such access in the future? 
