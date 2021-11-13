@@ -1,9 +1,11 @@
 
+## Full Kibana Dashboard
+
 ![D1](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/20.%20Red%20vs%20Blue/2.%20Blue/D1.PNG)
 
 ![D2](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/20.%20Red%20vs%20Blue/2.%20Blue/D2.PNG)
 
-1. Identify the offensive traffic.
+### 1. Identify the offensive traffic.
 
   - Identify the traffic between your machine and the web machine: `source.ip: 192.168.1.90 AND destination.ip: 192.168.1.105`
 
@@ -20,7 +22,7 @@
     ![1.3.1](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/20.%20Red%20vs%20Blue/2.%20Blue/1.3.1.PNG)
 
 
-2. Find the request for the hidden directory.
+### 2. Find the request for the hidden directory.
 
 - In your attack, you found a secret folder. Let's look at that interaction between these two machines. `source.ip: 192.168.1.90 AND destination.ip: 192.168.1.105 AND url.path: /company_folders/secret_folder/`
 
@@ -36,7 +38,7 @@
 
 
 
-3. Identify the brute force attack.
+### 3. Identify the brute force attack.
 
 - After identifying the hidden directory, you used Hydra to brute-force the target server. Answer the following questions:
 
@@ -54,7 +56,7 @@
 
 
 
-4. Find the WebDav connection.
+### 4. Find the WebDav connection.
 
 - Use your dashboard to answer the following questions:
 
@@ -71,7 +73,7 @@
 
 
 
-5. Identify the reverse shell and meterpreter traffic.
+### 5. Identify the reverse shell and meterpreter traffic.
 
 - To finish off the attack, you uploaded a PHP reverse shell and started a meterpreter shell session. Answer the following questions:
 
