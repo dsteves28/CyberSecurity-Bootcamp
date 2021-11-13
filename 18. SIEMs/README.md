@@ -2,9 +2,12 @@
 
 ## 1. Determine the impact that the DDOS attack had on download and upload speed. 
 
-### Create a field called ratio that shows the ratio between the upload and download speeds. Then create a report using the Splunk's table command to display the following fields in a statistics report: `_time, IP_ADDRESS, DOWNLOAD_MEGABITS, UPLOAD_MEGABITS, ratio`
+### Create a field using `eval` called `ratio` that shows the ratio between the upload and download speeds. Then create a report using the Splunk's table command to display the following fields in a statistics report: `_time, IP_ADDRESS, DOWNLOAD_MEGABITS, UPLOAD_MEGABITS, ratio`.  
 
-#### Splunk Search
+#### Splunk Search 
+
+`source="server_speedtest.csv" | eval ratio = 'DOWNLOAD_MEGABITS'  / 'UPLOAD_MEGABITS' | table _time IP_ADDRESS DOWNLOAD_MEGABITS UPLOAD_MEGABITS ratio`
+
 ![Speedtest search](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/18.%20SIEMs/Speedtest%20search.PNG)
 
 #### Report Table
@@ -21,6 +24,9 @@ Worst effects lasted 4 hours. System started to recover after 6 hours. Full reco
 ### Create a report that shows the count of critical vulnerabilities from the customer database server. Then build an alert that monitors every day to see if this server has any critical vulnerabilities.
 
 #### Splunk Search
+
+`source="nessus_logs.csv" severity=critical dest_ip="10.11.36.26"| top limit=20 severity`
+
 ![Nessus search](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/18.%20SIEMs/Nessus%20search.PNG)
 
 #### Report
@@ -39,6 +45,9 @@ Worst effects lasted 4 hours. System started to recover after 6 hours. Full reco
 ### Create a baseline of the ordinary amount of administrator bad logins and determine a threshold to indicate if a brute force attack is occurring.
 
 #### Splunk Search
+
+`source="Administrator_logs.csv" name="An account failed to log on"`
+
 ![Administrator Logs Search](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/18.%20SIEMs/Administrator%20Logs%20Search.PNG)
 
 #### Alert for when "An account failed to log on" with a baseline of 30.
