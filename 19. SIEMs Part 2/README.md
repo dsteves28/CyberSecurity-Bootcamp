@@ -15,11 +15,11 @@ The task here is to design mitigation strategies to protect VSI from future atta
 
 ### Section 1
 
-![timechart]()
+![timechart](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/19.%20SIEMs%20Part%202/timechart.PNG)
 
 Several users were impacted during the attack on March 25th.
 
-![signatures]()
+![signatures](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/19.%20SIEMs%20Part%202/top%20signatures.PNG)
 
 Based on the attack signatures, what mitigations would you recommend to protect each user account? 
 
