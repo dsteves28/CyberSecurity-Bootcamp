@@ -42,7 +42,7 @@ What sort of mitigation could you use to protect against this?
 
 ### Section 1
 
-![Map]()
+![Map](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/19.%20SIEMs%20Part%202/Apache%20Attack%20Geo%20Map.PNG)
 
 Based on the geographic map, recommend a firewall rule that the networking team should implement.
 Provide a "plain english" description of the rule.
@@ -51,7 +51,7 @@ Provide a "plain english" description of the rule.
 
 Provide a screen shot of the geographic map that justifies why you created this rule.
 
-![Close_up_map]()
+![Close_up_map](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/19.%20SIEMs%20Part%202/Map%20close%20up.PNG)
 
 
 ### Section 2
