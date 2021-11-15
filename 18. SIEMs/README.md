@@ -72,5 +72,3 @@ Brute force started at 8 am on Friday, February 21, 2020. Lasted for 6 hours til
 The End!
 
 ![thumbs_up](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/18.%20SIEMs/thumbs%20up%20computer.gif)
-
-![spider](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/18.%20SIEMs/spider.gif)
