@@ -2,7 +2,7 @@
 
 ## 1. Determine the impact that the DDOS attack had on download and upload speed. 
 
-[Speed Test File]()
+[Speed Test File](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/18.%20SIEMs/server_speedtest.csv)
 
 ### Create a field using `eval` called `ratio` that shows the ratio between the upload and download speeds. Then create a report using the Splunk's table command to display the following fields in a statistics report: `_time, IP_ADDRESS, DOWNLOAD_MEGABITS, UPLOAD_MEGABITS, ratio`.  
 
@@ -23,7 +23,7 @@ Worst effects lasted 4 hours. System started to recover after 6 hours. Full reco
 
 ## 2. Determine how many critical vulnerabilities exist on the customer data server. 
 
-[Nessus Scan Results File]()
+[Nessus Scan Results File](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/18.%20SIEMs/nessus_logs.csv)
 
 ### Create a report that shows the count of critical vulnerabilities from the customer database server. Then build an alert that monitors every day to see if this server has any critical vulnerabilities.
 
@@ -46,7 +46,7 @@ Worst effects lasted 4 hours. System started to recover after 6 hours. Full reco
 
 ## 3. Analyze administrator logs that document a brute force attack.
 
-[Admin Logins File]()
+[Admin Logins File](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/18.%20SIEMs/Administrator_logs.csv)
 
 ### Create a baseline of the ordinary amount of administrator bad logins and determine a threshold to indicate if a brute force attack is occurring.
 
