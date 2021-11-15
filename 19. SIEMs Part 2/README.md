@@ -18,19 +18,21 @@ Several users were impacted during the attack on March 25th.
 
 Based on the attack signatures, what mitigations would you recommend to protect each user account? 
 
-- 
+- Set account lockout policies after a certain number of failed login attempts to prevent credentials from being guessed. Implement CAPTCHA, if lockout is not a viable option.
 
 Provide global mitigations that the whole company can use and individual mitigations that are specific to each user.
 
-- 
+- Use multi-factor authentication. Where possible, also enable multi-factor authentication on externally facing services.
 
 ### Section 2
 VSI has insider information that JobeCorp attempted to target users by sending `"Bad Logins"` to lock out every user.
 
 What sort of mitigation could you use to protect against this?
 
-- 
+- If failed attempts from a given IP address exceed a threshgold, that address can be locked out.
+    - Would fail if attacker is using a botnet.
 
+- Use multi-factor authentication.
 
 ## Part 2: Apache Webserver Attack:
 
@@ -40,16 +42,16 @@ What sort of mitigation could you use to protect against this?
 
 ### Section 1
 
+![Map]()
+
 Based on the geographic map, recommend a firewall rule that the networking team should implement.
 Provide a "plain english" description of the rule.
 
-- 
-
-For example: "Block all incoming HTTP traffic where the source IP comes from the city of Los Angeles."
+- Block all incoming HTTP traffic where the source IP comes from the country of Ukraine.
 
 Provide a screen shot of the geographic map that justifies why you created this rule.
 
-- 
+![Close_up_map]()
 
 
 ### Section 2
