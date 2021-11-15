@@ -14,7 +14,12 @@ The task here is to design mitigation strategies to protect VSI from future atta
 [Windows Server Attack Logs File](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/19.%20SIEMs%20Part%202/windows_server_attack_logs.csv)
 
 ### Section 1
+
+![timechart]()
+
 Several users were impacted during the attack on March 25th.
+
+![signatures]()
 
 Based on the attack signatures, what mitigations would you recommend to protect each user account? 
 
@@ -29,7 +34,7 @@ VSI has insider information that JobeCorp attempted to target users by sending `
 
 What sort of mitigation could you use to protect against this?
 
-- If failed attempts from a given IP address exceed a threshgold, that address can be locked out.
+- If failed attempts from a given IP address exceed a threshold, that address can be locked out.
     - Would fail if attacker is using a botnet.
 
 - Use multi-factor authentication.
