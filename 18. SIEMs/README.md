@@ -69,6 +69,6 @@ Worst effects lasted 4 hours. System started to recover after 6 hours. Full reco
 
 Brute force started at 8 am on Friday, February 21, 2020. Lasted for 6 hours till 2 pm on Friday, February 21, 2020.
 
-The End!
+.
 
 ![thumbs_up](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/18.%20SIEMs/thumbs%20up%20computer.gif)
