@@ -66,9 +66,11 @@ VSI has insider information that attackers will launch the same webserver attack
 
 What other rules can you create to protect VSI from attacks against your webserver?
 
-- 
+- Set a threshold on the number of tries an IP can get before it is lockout for a time.
 
 Conceive of two more rules in "plain english".
+
+- Use multi-factor authentication.
 
 - 
 
