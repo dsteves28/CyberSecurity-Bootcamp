@@ -1,4 +1,6 @@
 
+# Blue Team
+
 ## Full Kibana Dashboard
 
 ![D1](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/20.%20Red%20vs%20Blue/2.%20Blue/D1.PNG)
@@ -32,9 +34,9 @@
   - Which files were requested? What information did they contain? 
     - `192.168.1.105/company_folders/secret_folder/connect_to_corp_server`
   - What kind of alarm would you set to detect this behavior in the future? 
-    - We could set an alert that goes off for any machine that attempts to access this directory or file.
+    - We could set an alert that goes off for any machine that attempts to access this file or directory
   - Identify at least one way to harden the vulnerable machine that would mitigate this attack. 
-    - This directory and file should be removed from the server all together.
+    - This file and directory should be removed from the server.
 
 
 
@@ -47,12 +49,12 @@
   - How many requests were made in the brute-force attack? How many requests had the attacker made before discovering the correct password in this one? 
     - 15,225
   - What kind of alarm would you set to detect this behavior in the future and at what threshold(s)? 
-    - Base of the spikes seen in `Connections over time [Packetbeat Flows] ECS` and `Errors vs successful transactions [Packetbet] ECS`, we could set an alert if `401 Unauthorized` is returned from any server over a certain threshold that would weed out forgotten passwords. Start with 10 in one hour and refine from there.
+    - Base of the spikes seen in `Connections over time [Packetbeat Flows] ECS` and `Errors vs successful transactions [Packetbet] ECS`, we could set an alert if `401 Unauthorized` is returned from any server over a certain threshold that would weed out forgotten passwords. We can start with 5 in one hour and then correct it later.
     - We could also create an alert if the `user_agent.original` value includes `Hydra` in the name.
   ![1.3](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/20.%20Red%20vs%20Blue/2.%20Blue/1.3.PNG)
   ![1.3.1](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/20.%20Red%20vs%20Blue/2.%20Blue/1.3.1.PNG)
   - Identify at least one way to harden the vulnerable machine that would mitigate this attack.
-    - After the limit of 10 `401 Unauthorized` codes have been returned from a server, that server can automatically drop traffic from the offending IP address for a period of 1 hour. We could also display a lockout message and lock the page from login for a temporary period of time from that user.
+    - After the limit of 5 `401 Unauthorized` codes has been reached, that server can automatically block all traffic from the offending IP address for a period of 1 hour. We could also display a lockout message and lock the page from login for a temporary period of time from that user.
 
 
 
