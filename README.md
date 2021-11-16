@@ -176,3 +176,7 @@ server.
 ## [19. SIEMs Part 2](https://github.com/dsteves28/CyberSecurity-Bootcamp/tree/main/19.%20SIEMs%20Part%202)
 
 ### 
+
+## [20. Red vs Blue](https://github.com/dsteves28/CyberSecurity-Bootcamp/tree/main/20.%20Red%20vs%20Blue)
+
+### 
