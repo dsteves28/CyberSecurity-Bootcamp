@@ -54,8 +54,6 @@ Provide a "plain english" description of the rule.
 
 - Block all incoming HTTP traffic where the source IP comes from the country of Ukraine.
 
-Provide a screen shot of the geographic map that justifies why you created this rule.
-
 ![Close_up_map](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/19.%20SIEMs%20Part%202/Map%20close%20up.PNG)
 
 
