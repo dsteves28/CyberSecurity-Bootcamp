@@ -76,7 +76,7 @@ What other rules can you create to protect VSI from attacks against your webserv
 
 - Block all HTTP POSTS where the byte size is 65748, it is a DDoS attack / botnet.
 
-
+.
 
 ![neat](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/19.%20SIEMs%20Part%202/neat.gif)
 
