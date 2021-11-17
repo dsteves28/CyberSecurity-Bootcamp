@@ -17,9 +17,13 @@ The task here is to design mitigation strategies to protect VSI from future atta
 
 ![timechart](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/19.%20SIEMs%20Part%202/timechart.PNG)
 
+Splunk Search - `source="windows_server_attack_logs.csv"| timechart count`
+
 Several users were impacted during the attack on March 25th.
 
 ![signatures](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/19.%20SIEMs%20Part%202/top%20signatures.PNG)
+
+Splunk Search - `source="windows_server_attack_logs.csv"| top limit=20 signature`
 
 Based on the attack signatures, what mitigations would you recommend to protect each user account? 
 
@@ -46,6 +50,8 @@ What sort of mitigation could you use to protect against this?
 [Apache Attack Logs File](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/19.%20SIEMs%20Part%202/apache_attack_logs.txt)
 
 ### Section 1
+
+Splunk Search - `source="apache_attack_logs.txt" | iplocation clientip | geostats count by uri_path`
 
 ![Map](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/19.%20SIEMs%20Part%202/Apache%20Attack%20Geo%20Map.PNG)
 
