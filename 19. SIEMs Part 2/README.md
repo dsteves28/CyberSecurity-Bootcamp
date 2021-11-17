@@ -66,11 +66,9 @@ What other rules can you create to protect VSI from attacks against your webserv
 
 - Set a threshold on the number of tries an IP can get before it is lockout for a time.
 
-Conceive of two more rules in "plain english".
-
 - Use multi-factor authentication.
 
-- 
+- Block all HTTP POSTS where the byte size is 65748, it is a DDoS attack / botnet.
 
 Hint: Look for other fields that indicate the attacker.
 
