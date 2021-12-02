@@ -242,9 +242,9 @@ King:
 
 # Evidence Relating to Defacement of Museum Art
 
-This sub-section provides details regarding the evidence found as it relates to the defacement of museum art. 
 
-(* Indicates which evidence this is connected to.)
+
+                    (* Indicates which evidence this is connected to.)
 
 
 
