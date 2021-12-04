@@ -45,7 +45,7 @@ Step 3. **Create a Training Plan**
 
 **Step 2.** **Creating, Managing, and Automating Cron Jobs** - Creating an archiving and backup scheme to mitigate against malware.
 
-**Step 3.** **Writing Basic Bash Scripts** - Set up multiple backup directories. Each directory will be dedicated to housing text files that you will create with different kinds of system information.
+**Step 3.** **Writing Basic Bash Scripts** - Set up multiple backup directories. Each directory will be dedicated to housing text files that will be created with different kinds of system information.
 
 **Step 4.** **Managing Log File Sizes** - Implement log rotation in order to preserve log entries and keep log file sizes more manageable. Also compress logs during rotation to preserve disk space and lower costs.
 
@@ -227,7 +227,10 @@ server.
 
 ## [20. Red vs Blue](https://github.com/dsteves28/CyberSecurity-Bootcamp/tree/main/20.%20Red%20vs%20Blue)
 
-### 
+### A Red Team vs. Blue Team scenario in which I play the role of both pentester and SOC analyst.
+ - **As the Red Team**, attack a vulnerable VM within the environment, ultimately gaining root access to the machine. 
+ - **As Blue Team**, use Kibana to review logs taken during the previous engagement. Use the logs to extract hard data and visualizations for the report.
+   - Then, interpret the log data to suggest mitigation measures for each exploit that was successfully performed.
 
 ## [21. Digital Forensics]()
 
