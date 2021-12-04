@@ -232,7 +232,7 @@ server.
  - **As Blue Team**, use Kibana to review logs taken during the previous engagement. Use the logs to extract hard data and visualizations for the report.
    - Then, interpret the log data to suggest mitigation measures for each exploit that was successfully performed.
 
-## [21. Digital Forensics]()
+## [21. Digital Forensics](https://github.com/dsteves28/CyberSecurity-Bootcamp/tree/main/21.%20Digital%20Forensics)
 
 ###
 
