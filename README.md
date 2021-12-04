@@ -155,7 +155,16 @@ server.
 
 ## [14. Web Development](https://github.com/dsteves28/CyberSecurity-Bootcamp/tree/main/14.%20Web%20Development)
 
-###
+### Web Application Architecture and the Web Client-Server Model HTTP communication process.
+
+*Concepts and Tools used in Web Development*
+  - HTTP request and response process.
+  - Using `curl`
+  - Sessions and Cookies
+  - Example HTTP Requests and Responses
+  - Monoliths and Microservices
+  - Deploying and Testing a Container Set
+  - Databases
 
 ## [15. Web Vulnerabilities and Hardening](https://github.com/dsteves28/CyberSecurity-Bootcamp/tree/main/15.%20Web%20Vulnerabilities%20and%20Hardening)
 
