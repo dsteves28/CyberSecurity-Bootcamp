@@ -168,11 +168,32 @@ server.
 
 ## [15. Web Vulnerabilities and Hardening](https://github.com/dsteves28/CyberSecurity-Bootcamp/tree/main/15.%20Web%20Vulnerabilities%20and%20Hardening)
 
-###
+### Attacks, Vulnerabilites, and Tools.
+
+  - Web application vulnerability assessments
+  - Injection
+  - Brute force attacks
+  - Broken authentication
+  - Burp Suite
+  - Web proxies
+  - Directory traversal
+  - Dot dot slash attacks
+  - Beef
+  - Cross-site scripting
+  - Malicious payloads
 
 ## [16. Penetration Testing](https://github.com/dsteves28/CyberSecurity-Bootcamp/tree/main/16.%20Penetration%20Testing)
 
-###
+### Topics and Tools in PenTesting.
+
+  - Website enumeration
+  - Google Dorking
+  - OSINT Recon
+  - Shodan
+  - Recon-NG
+  - Installing modules
+  - Zenmap
+  - `nmap`'s scripting engine
 
 ## [17. Penetration Testing Part 2](https://github.com/dsteves28/CyberSecurity-Bootcamp/tree/main/17.%20Penetration%20Testing%202)
 
