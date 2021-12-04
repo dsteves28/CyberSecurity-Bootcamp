@@ -162,7 +162,7 @@ Answer the following questions about monoliths and microservices:
 
 #### Deploying and Testing a Container Set
 
-Answer the following questions about multi-container deployment:
+Multi-Container deployment:
 
 29. What tool can be used to deploy multiple containers at once?
  - Playbook
