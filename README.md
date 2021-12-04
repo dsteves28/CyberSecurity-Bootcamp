@@ -234,6 +234,14 @@ server.
 
 ## [21. Digital Forensics](https://github.com/dsteves28/CyberSecurity-Bootcamp/tree/main/21.%20Digital%20Forensics)
 
-###
+### Autopsy 
+- Locate identifiable evidence on the iPhone in order to establish ownership.
+- Use Autopsy to view and tag evidence in an iPhone image.
+- Locate identifiable evidence on the iPhone in order to establish ownership.
+- Extract image content for offline viewing in other applications (logs, text, email)
+- Use Autopsy to view and gather evidence from the suspect Iphone.
+  - Use data Export to analyze Email messages offline.
+  - Use data Export to analyze SMS messages offline.
+- Prepare a preliminary report
 
 ## 
