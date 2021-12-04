@@ -197,15 +197,33 @@ server.
 
 ## [17. Penetration Testing Part 2](https://github.com/dsteves28/CyberSecurity-Bootcamp/tree/main/17.%20Penetration%20Testing%202)
 
-###
+### Use of Metasploit and Establishing a Reverse Shell
+
+1. Perform a service and version scan using `Nmap`
+2. **Metasploit**
+   - Use SearchSploit to determine if the targets are vulnerable to exploits.
+   - Use exploit modules from the Metasploit framework to establish a reverse shell on a target.
 
 ## [18. SIEMs](https://github.com/dsteves28/CyberSecurity-Bootcamp/tree/main/18.%20SIEMs)
 
-###
+### **Splunk**
+
+  - Researching and adding new apps
+  - Installing new apps
+  - Uploading files
+  - Splunk searching
+  - Using fields
+  - Custom reports
+  - Custom alerts
 
 ## [19. SIEMs Part 2](https://github.com/dsteves28/CyberSecurity-Bootcamp/tree/main/19.%20SIEMs%20Part%202)
 
-### 
+### **Splunk** 
+*Design Mitigation Strategies*
+
+- **Part 1: Windows Server Attack**
+
+- **Part 2: Apache Webserver Attack**
 
 ## [20. Red vs Blue](https://github.com/dsteves28/CyberSecurity-Bootcamp/tree/main/20.%20Red%20vs%20Blue)
 
