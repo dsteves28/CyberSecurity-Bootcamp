@@ -8,7 +8,7 @@
 - Suggestions for Going Further
 
 ### Network Topology
-Insert diagram
+![network map](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/Final%20Project/2.%20Blue%20Team%20-%20Summary%20of%20Operations/Final%20Network%20Network%20Map.PNG)
 
 ### The following machines were identified on the network:
 
