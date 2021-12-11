@@ -56,9 +56,9 @@ IT was informed that some users are torrenting on the network. The Security team
 Your task is to isolate torrent traffic and answer the following questions:
 
 Find the following information about the machine with IP address 10.0.0.201:
-- MAC address: **00:12:3f:f4:3b:96**
+- MAC address: **00:16:17:18:66:c8**
 - Windows username: **elmer.blanco**
-- OS version 
+- OS version **Windows 10**
 
 ![blanco](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/Final%20Project/3.%20Network%20Forensic%20Analysis%20Report/blanco1.PNG)
 
