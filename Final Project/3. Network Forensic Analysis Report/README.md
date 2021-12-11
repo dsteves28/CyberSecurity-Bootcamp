@@ -11,16 +11,16 @@ You must inspect your traffic capture to answer the following questions:
  
 2. What is the IP address of the Domain Controller (DC) of the AD network?
 **12.6.12.12**
- ![custom](https://github.com/shansen18/BootCamp/blob/main/Final_Project/Images/pcap/customdomain.PNG)
+ ![custom](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/Final%20Project/3.%20Network%20Forensic%20Analysis%20Report/customdomain.PNG)
 
 3. What is the name of the malware downloaded to the 10.6.12.203 machine? 
 **June11.dll**
-![Getdll](https://github.com/shansen18/BootCamp/blob/main/Final_Project/Images/pcap/GetDll.PNG)
+![Getdll](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/Final%20Project/3.%20Network%20Forensic%20Analysis%20Report/GetDll.PNG)
 
 
 Upload the file to VirusTotal.com. What kind of malware is this classified as?
  **Trojan**
-![virustotal](https://github.com/shansen18/BootCamp/blob/main/Final_Project/Images/pcap/virustotal.PNG)
+![virustotal](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/Final%20Project/3.%20Network%20Forensic%20Analysis%20Report/virustotal.PNG)
  
 ## Vulnerable Windows Machines
 The Security team received reports of an infected Windows host on the network. They know the following:
@@ -36,12 +36,12 @@ Find the following information about the infected Windows machine:
 - Host name: **Rptterdam-PC.mind-hammer.net**
 - IP address: **172.16.4.205**
 - MAC address: **00:59:07bo:63:a4**
-![infected](https://github.com/shansen18/BootCamp/blob/main/Final_Project/Images/pcap/infectedpc.PNG)
+![infected](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/Final%20Project/3.%20Network%20Forensic%20Analysis%20Report/infectedpc.PNG)
 
 What is the username of the Windows user whose computer is infected?
 **matthijs.devries**
  
-![username](https://github.com/shansen18/BootCamp/blob/main/Final_Project/Images/pcap/Username.PNG)
+![username](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/Final%20Project/3.%20Network%20Forensic%20Analysis%20Report/Username.PNG)
 
 What are the IP addresses used in the actual infection traffic?
  
@@ -60,9 +60,9 @@ Find the following information about the machine with IP address 10.0.0.201:
 - Windows username: **elmer.blanco**
 - OS version 
 
-![blanco](https://github.com/shansen18/BootCamp/blob/main/Final_Project/Images/pcap/blanco1.PNG)
+![blanco](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/Final%20Project/3.%20Network%20Forensic%20Analysis%20Report/blanco1.PNG)
 
 Which torrent file did the user download?
 **Betty_Boop_Rythm_on_the_Reservation.avil**
 
-![download](https://github.com/shansen18/BootCamp/blob/main/Final_Project/Images/pcap/Download.PNG)
+![download](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/Final%20Project/3.%20Network%20Forensic%20Analysis%20Report/Download.PNG)
