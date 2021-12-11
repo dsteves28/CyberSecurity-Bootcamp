@@ -60,7 +60,9 @@ Find the following information about the machine with IP address 10.0.0.201:
 - Windows username: **elmer.blanco**
 - OS version **Windows 10**
 
-![blanco](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/Final%20Project/3.%20Network%20Forensic%20Analysis%20Report/blanco1.PNG)
+![blanco](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/Final%20Project/3.%20Network%20Forensic%20Analysis%20Report/blancousername.PNG)
+
+![os](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/Final%20Project/3.%20Network%20Forensic%20Analysis%20Report/os.PNG)
 
 Which torrent file did the user download?
 **Betty_Boop_Rythm_on_the_Reservation.avil**
