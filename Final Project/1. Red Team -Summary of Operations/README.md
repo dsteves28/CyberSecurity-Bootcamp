@@ -54,6 +54,8 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
 
 ![wordpress 2](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/Final%20Project/1.%20Red%20Team%20-Summary%20of%20Operations/word%20press%202.PNG)
 
+**Flag 1**
+
 ![Flag1](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/Final%20Project/1.%20Red%20Team%20-Summary%20of%20Operations/flag%201.png)
 
   - `flag2.txt`:`flag2{fc3fd58dcdad9ab23faca6e9a3e581c}`
@@ -84,6 +86,7 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
 
 ![sql 2](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/Final%20Project/1.%20Red%20Team%20-Summary%20of%20Operations/sql%20hashes.PNG)
 
+**Flag 3**
 ![Flag3](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/Final%20Project/1.%20Red%20Team%20-Summary%20of%20Operations/flag%203%20%26%204.PNG)
 
  - `flag4.txt`:`flag4{715dea6c055b9fe3337544932f2941ce}`
