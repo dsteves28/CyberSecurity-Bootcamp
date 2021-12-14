@@ -12,7 +12,6 @@ Nmap scan results for each machine reveal the below services and OS details:
 `nmap 192.168.1.0/24`
 
 ![full nmap 1](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/Final%20Project/1.%20Red%20Team%20-Summary%20of%20Operations/full%20nmap%20part%201.PNG)
-
 ![full nmap 2](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/Final%20Project/1.%20Red%20Team%20-Summary%20of%20Operations/full%20nmap%20part%202.PNG)
 
 ## Target 1
