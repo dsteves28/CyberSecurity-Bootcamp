@@ -65,6 +65,7 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
       - `ls`
       - `nano flag2.txt`
 
+**Flag 2**
 ![flag2](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/Final%20Project/1.%20Red%20Team%20-Summary%20of%20Operations/flag%202.PNG)
 
  - `flag3.txt`:`flag3{afc01ab56b50591e7dccf93122770cd2}`
@@ -103,4 +104,5 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
 
 ![john hashes](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/Final%20Project/1.%20Red%20Team%20-Summary%20of%20Operations/john%20hashes.PNG)
 
+**Flag 4**
 ![flag4](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/Final%20Project/1.%20Red%20Team%20-Summary%20of%20Operations/flag%203%20%26%204.PNG)
