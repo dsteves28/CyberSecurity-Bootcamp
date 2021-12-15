@@ -251,6 +251,7 @@ server.
 
 ### **Offensive Security** 
 - Assess a vulnerable VM and verify that the Kibana rules work as expected.
+  - Locate Flags for a CTF.
 
 ### **Network Forensics** 
 - Use Wireshark to analyze live malicious traffic on the wire.
