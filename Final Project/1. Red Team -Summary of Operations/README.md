@@ -29,14 +29,14 @@ This scan identifies the services below as potential points of entry:
   * Open Port 139/TCP - netbios-ssn
   * Open Port 445/TCP - microsoft-ds
 
+![nmap target 1](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/Final%20Project/1.%20Red%20Team%20-Summary%20of%20Operations/nmap%20target%201.PNG)
+
 The following vulnerabilities were identified on each target:
 - Target 1
   - User Enumeration (WordPress Site)
   - Weak User Password
   - Unsalted User Password Hash (WordPress Database)
   - Misconfiguration of User Privileges/Privilege Escalation
-
-![nmap target 1](https://github.com/dsteves28/CyberSecurity-Bootcamp/blob/main/Final%20Project/1.%20Red%20Team%20-Summary%20of%20Operations/nmap%20target%201.PNG)
 
 ### Exploitation
 The Red Team was able to penetrate `Target 1` and retrieve the following confidential data:
