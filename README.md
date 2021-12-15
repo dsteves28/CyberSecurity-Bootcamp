@@ -246,11 +246,11 @@ server.
 
 # [Final Project](https://github.com/dsteves28/CyberSecurity-Bootcamp/tree/main/Final%20Project)
 
+### **Defensive Security:** 
+- Implement alerts and thresholds in ELK.
+
 ### **Offensive Security:** 
 - Assess a vulnerable VM and verify that the Kibana rules work as expected.
-
-### **Defensive Security:** 
-- Implement alerts and thresholds you determined would be effective in Project 2.
 
 ### **Network Forensics:** 
 - Use Wireshark to analyze live malicious traffic on the wire.
